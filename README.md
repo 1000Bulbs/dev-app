@@ -22,8 +22,8 @@ TODO: Describe the position.
 
 ## Submitting Your Application
 
-1. Clone/fork this repository[^1].
+1. Clone/fork this repository.
 2. Follow the instructions in each of the subdirectories' README files.
 3. Send us a pull request through GitHub or let us know where we can find your clone.
 
-[^1] Should you be new to Git, we recommend [Pro Git](http://git-scm.com/book)
+Should you be new to Git, we recommend [Pro Git](http://git-scm.com/book).
