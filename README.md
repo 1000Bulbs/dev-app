@@ -20,7 +20,7 @@ We're the development team behind [1000Bulbs.com](http://www.1000bulbs.com). We 
 
 ## About You (ideally) ##
 
-You're an excellent developer, or at least you try to be. You've got experience building things with some or all of the tech listed above (or would like to).
+You're an excellent developer, or at least you try to be. You've got experience building things with some or all of the tech listed above (or would like to). You prefer automated testing.
 
 We're based out of Garland, TX which isn't the most exciting place (though it has been featured multiple times on *Storage Wars: Texas*), so you'll need to be somewhere within proximity.
 
