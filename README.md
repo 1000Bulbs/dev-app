@@ -4,7 +4,7 @@ But first an introduction...
 
 ## Who We Are
 
-TODO: Describe our company.
+We're the development team behind [1000Bulbs.com](http://www.1000bulbs.com). We build the software that sells more light bulbs online than you'd probably believe.
 
 ## About the Job
 
@@ -24,6 +24,6 @@ TODO: Describe the position.
 
 1. Clone/fork this repository.
 2. Follow the instructions in each of the subdirectories' README files.
-3. Send us a pull request through GitHub or let us know where we can find your clone.
+3. Send us a pull request through GitHub or let us know where we can find your repo.
 
 Should you be new to Git, we recommend [Pro Git](http://git-scm.com/book).
