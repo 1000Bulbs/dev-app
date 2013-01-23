@@ -14,7 +14,7 @@ TODO: Describe the position.
 
 * Competitive Salary
 * Awesome Hardware
-** MacBook Pro / Cinema Display
+ - MacBook Pro / Cinema Display
 * Health and Dental insurance
 * Paid vacation and sick days
 * 401k participation
