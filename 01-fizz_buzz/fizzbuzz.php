@@ -1,5 +1,8 @@
 <?php
 class FizzBuzz {
+	const fizz = 'Fizz';
+	const buzz = 'Buzz';
+	
 	public function iterate($max = 100) {
 		for($i = 1; $i <= $max; $i++) {
 			$this->makeNoise($i);
@@ -22,14 +25,14 @@ class FizzBuzz {
 	}
 
 	public function fizz($i) {
-		return $this->noise($i, 3, 'Fizz');
+		return $this->noise($i, 3, self::fizz);
 	}
 	
 	public function buzz($i) {
-		return $this->noise($i, 5, 'Buzz');
+		return $this->noise($i, 5, self::buzz);
 	}
 
-	public function noise($i, $multiple, $noise) {
+	protected function noise($i, $multiple, $noise) {
 		$return = null;
 		if(($i % $multiple) == 0) {
 			$return = $noise;
