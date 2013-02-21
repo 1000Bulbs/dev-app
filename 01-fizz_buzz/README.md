@@ -7,3 +7,7 @@ This is known as the "FizzBuzz" test. It's pretty common. You can find plenty of
 The point is to show us you can actually build something. Get as weird with it as you want. Write a RESTful FizzBuzz API. Do it with websockets or write it as a haiku in a Ruby DSL or something?
 
 Automated tests won't hurt. :D
+
+## Got dependencies? ##
+
+Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab them.
