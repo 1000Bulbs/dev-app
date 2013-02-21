@@ -13,6 +13,8 @@ We're the development team behind [1000Bulbs.com](http://www.1000bulbs.com). We 
 * Backbone.js
 * Compass/SASS/SCSS
  - We're just starting the transition to responsive layouts.
+* PostgreSQL
+* MongoDB
 * MySQL
 * Redis
 * Chef
