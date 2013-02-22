@@ -1,6 +1,5 @@
 var fb = {
     init: function() {
-        alert('here');
         $("#submit-btn").click(function() {
             $.ajax({
                 url: "../fb.php",
