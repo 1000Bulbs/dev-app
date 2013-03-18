@@ -4,6 +4,8 @@
  * Written by Shannon Davis
  * for 1000Bulbs.com
  * March 18, 2013
+ * 
+ *  To run, use: fizz.php?command=doTheFizzBuzz
  *
  * Count progressively from @param start to @param end, showing "Fizz"
  * on multiples of three and "Buzz" on multiples of five, but on multiples
@@ -87,9 +89,11 @@ class FizzBuzz
         }
 }
 
-/***************************************
+/*********************************************
  * And NOW, Let's see some serious Fizz.
- ***************************************/
+ * 
+ * To run, use: fizz.php?command=doTheFizzBuzz
+ *********************************************/
 $fizzBuzz = new FizzBuzz;
 
 switch( $_REQUEST['command'] )
