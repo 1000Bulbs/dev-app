@@ -1,6 +1,17 @@
 Shannon Davis
 PHP Lamp Developer
 
+About Me:
+I've been coding since I was 11 years old where my first home computer was a Tandy Color Computer 2 with 64k internal RAM with an attached tape drive. I
+later purchased a single external 5.25" floppy disk drive and then a second external drive. I learned the disk based operating language and spent my 
+weekends going to the local library, reading Commodore magazines because there wasn't much published for the Color Computer. I tried endlessly to develop
+a way to convert the Commodore code examples into Tandy basic (also called TRS/Trash Basic). After realizing you couldn't store much on the floppy disk, I
+learned ways to read and write to specific sectors on the disk, essentially storing more information onto the disk than the Disk Basic would permit including
+encrypted data. I was always trying to push the envelope even way back then. The ability to push that envelope still exists in my eagerness to learn better and
+more efficient methods to accomplish coding tasks today.
+
+On my time off, I spend it relaxing or working in the yard. I enjoy land scaping and even walking the creek banks looking for fossils.
+
 Specialties
 Web Technologies:
 
