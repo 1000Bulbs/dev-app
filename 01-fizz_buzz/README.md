@@ -17,4 +17,4 @@ Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab th
 </div>
 
 - I have created a Ubuntu Linux 12.04 cloud server at Rackspace.  I have also installed a LAMP stack on it.
-- Solution is at http://173.203.66.33/bulbs
+- Solution is at http://173.203.66.33/bulbs.php
