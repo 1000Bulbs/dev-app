@@ -16,7 +16,7 @@ I enjoy learning new things.  Things I have learned on my own are: <br>
 4.) MySQL <br>
 5.) AJAX <br>
 6.) JS and JQuery (although I am not a fan of client-side) <br>
-7.) HTML
+7.) HTML <br>
 8.) CSS
 
 I also created a company with three friends and then sold it.  I am looking for a position where I can work in a
