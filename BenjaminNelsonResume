@@ -1,0 +1,110 @@
+Benjamin D. Nelson
+5109 82nd St, Suite #7, PMB 232
+Lubbock, Texas 79424
+806-777-0259
+
+April 3rd, 2013
+
+To whom it may concern:
+
+I was in charge of the PHP, MongoDB, and MySQL development for the enterprise cloud suite called Client Stack (www.clientstack.com). Client Stack is designed to focus on big data solutions through the use of the schema-free NoSQL database system called MongoDB (Map-Reduce functions). It also utilizes MySQL for important transactions.
+
+We spent a massive amount of time on making Client Stack the fastest ERP solution on the market.  This was accomplished by the entire application being coded in AJAX.
+
+I am highly skilled in NoSQL, MySQL, PHP, AJAX, and Ubuntu Linux administration.  I also have a working knowledge of JavaScript and JQuery.  
+
+I wrote much of the PHP for Client Stack.  PHP was our main language and we utilized MongoDB's PHP driver to deliver our solutions.  I also performed much of the QA for Client Stack as we were a small team and I had to make sure that the tasks I assigned to my developers were done correctly.
+
+I was very adamant about all code being highly detailed and commented.  We started with 3 developers and this grew to 6.  Our ability to write highly detailed and easily understandable code allowed our new developers to come in and learn our framework very quickly.
+
+We constantly had to revise code and adapt to new problems.  We had a very agile development process that was modified daily at times to make sure that the limited human capital that we had was utilized extremely efficiently.  
+
+Client Stack's platform consists of 14 different Ubuntu Linux servers running on Rackspace's cloud and one server running on Amazon's EC2. 
+
+13 of these servers were MongoDB databases and two of them were in sharded clusters (log and e-mail).  I designed, implemented, and administered these servers.  I also did the same for our MySQL database.
+
+I am excited to move on from this project and start a new one soon. I will be able to fill all of the qualifications that you posted on your job application and also bring my management experiences to your project. I oversaw seven employees at Client Stack and we were able to accomplish many great things.
+
+If you want to see my work then please just go to www.clientstack.com and register for a free account (only four fields required to do this) or log in as a guest user. 
+
+Sincerely,
+Benjamin Nelson
+ 
+Benjamin D. Nelson
+Citizenship : American ▪ Date of birth : 01 January 1985
+Contact
+Tel : 806.777.0259
+Email : bnelson@parallelsolutionsinc.net
+
+Address
+5109 82nd St., Suite #7, PMB 232, Lubbock, TX 79424
+
+Profile
+Previous developer at Parallel Solutions.  Parallel Solutions is a software firm that built and maintains Client Stack (www.clientstack.com). 
+
+Key Skills
+I wrote the majority of the PHP and MongoDB code for www.clientstack.com.  It was written entirely in AJAX.  About 95% of all records are stored in MongoDB, the rest are in MySQL.  You can see my work by going to www.clientstack.com and registering for a free account or logging in as a guest user.  
+
+Parallel Solutions had DOD contracts to supply all servers and software to operate all short-wave UAV operations in Afghanistan and Iraq.  About $100,000 of that money was invested in Client Stack.
+
+I have been working 18 hour days for the last five years.  I am a very hard worker and an extremely fast learner.  I have learned multiple new languages in the last two years and I will be able to learn your system and be contributing to it within a week.
+
+Education
+2002 to 2006	Bachelor's of Science in Biological Chemistry (December 2006) 
+I wrote algorithms for protein folding during this time.
+Texas Tech University, Lubbock, Texas.
+
+Work Experience
+
+Full-Time Position
+Parallel Solutions, Inc.	August 2008 to December 2012
+- Was sold.
+      - Cloud based enterprise software suite (Invoices, POs, Quotes, Transactions, Contacts, Accounts, etc.)
+      - Oversaw project with 5 developers
+      - Lead MongoDB developer and administrator.  
+      - All server side code is PHP and all application servers utilize AJAX to reduce load and queries.
+      - Administered 15 Ubuntu Linux servers.  13 MongoDB servers, 1 MySQL server, and 1 PHP server.
+      - Wrote majority of PHP code and performed most PHP QA.
+      - MySQL server had 25 tables.  Most load was moved to MongoDB due to its better ability to scale.
+      - Wrote all map-reduce functions for business analytics.
+      - Wrote 20% of JavaScript code. 
+      - Designed all database architectures and optimization strategies for MongoDB and MySQL.
+      - Utilized MongoDB's PHP driver for server-side code.
+      - 14 servers were hosted on Rackspace's Cloud and 1 was hosted on Amazon's EC2.
+
+Full-Time Position
+Odessa College	August 2007 to August 2008
+- Professor of Chemistry
+- Taught Seven Introductory Chemistry Courses and Labs.  
+- Performed Theoretical Mathematics Research on Dr. Manheim's Alternatives to Einstein's Field Equations.
+
+Full-Time Position
+Nelkor, Industries	April 2007 to August 2007
+- Design Engineer
+- Designed and Machined Products to Support Oil Drilling Efforts in West Texas
+
+Part-Time Position
+Texas Tech Health Sciences Center	May 2004 to April 2007
+- Research Assistant
+- Researched Cancer and Tissue Rejection Under the Guidance of Dr. Charles Faust, Associate Dean of Cell Biology and Biochemistry Department. 
+
+Full-Time Position
+The United States Marine Corp                                                                                                        Summer 2004
+- Officer Candidate
+-  Completed and Graduated from the United States Officer's Candidate School at Marine Corp Base Quantico in Quantico, VA.  Given Honorable Dischage
+
+
+
+References
+	
+Dr. Charles Faust
+Mentor at TTUHSC	
+Texas Tech University
+E-mail: charles.faust@ttuhsc.com
+Phone: 1.806.743.3000
+
+Isham Khan
+Former Business Partner
+Contech Engineering Solutions
+E-mail: ishamkhan@gmail.com
+Phone: 1.513.716.2178
