@@ -22,12 +22,12 @@ I enjoy learning new things.  Things I have learned on my own are: <br>
 I also created a company with three friends and then sold it.  I am looking for a position where I can work in a
 small team of developers that love to learn new technologies and implrement them.
 
-<b>Web App:</b>
+<b>Web App:</b> <br>
 http://www.clientstack.com
 - I was did all MongoDB work including map-reduce functions and database administration.  
 - I also did much of the MySQL and PHP work.  
 
-<b>Resume:</b>
+<b>Resume:</b> <br>
 http://c446ce5ab5d8f01d15d6-f575189cff81bea3d0c14202f5e72f6d.r65.cf1.rackcdn.com/Benjamin_Resume.pdf
 
 
