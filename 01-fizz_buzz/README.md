@@ -11,3 +11,7 @@ Automated tests won't hurt. :D
 ## Got dependencies? ##
 
 Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab them.
+
+<?php
+ echo 'Test';
+ ?>
