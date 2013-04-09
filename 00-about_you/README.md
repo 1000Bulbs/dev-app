@@ -20,11 +20,11 @@ I enjoy learning new things.  Things I have learned on my own are: <br>
 8.) CSS
 
 I also created a company with three friends and then sold it.  I am looking for a position where I can work in a
-small team of developers that love to learn new technologies and implrement them.
+small team of developers that love to learn new technologies and implement them.
 
 <b>Web App:</b> <br>
 http://www.clientstack.com
-- I was did all MongoDB work including map-reduce functions and database administration.  
+- I did all MongoDB work including map-reduce functions and database administration.  
 - I also did much of the MySQL and PHP work.  
 
 <b>Resume:</b> <br>
