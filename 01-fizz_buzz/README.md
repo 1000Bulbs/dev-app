@@ -12,7 +12,7 @@ Automated tests won't hurt. :D
 
 Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab them.
 
-<div style="font-weight:bold; color:#a62b3b">
+<div>
 <b>Solutions</b>
 </div>
 
