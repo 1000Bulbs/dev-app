@@ -13,7 +13,7 @@ Automated tests won't hurt. :D
 Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab them.
 
 <div style="font-weight:bold; color:#a62b3b">
-Solutions
+<b>Solutions</b>
 </div>
 
 - I have created a Ubuntu Linux 12.04 cloud server at Rackspace.  I have also installed a LAMP stack on it.
