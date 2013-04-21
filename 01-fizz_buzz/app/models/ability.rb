@@ -7,7 +7,7 @@ class Ability
     if user.admin?
       can :manage, :all
     else
-      can :manage, Game, user: user
+      can :manage, Game, :user_id => user.id
     end
   end
 end
