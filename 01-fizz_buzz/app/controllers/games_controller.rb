@@ -1,7 +1,7 @@
 class GamesController < ApplicationController
   load_and_authorize_resource through: :current_user
 
-  respond_to :json
+  respond_to :html, :json
 
   def index
   end
@@ -13,6 +13,9 @@ class GamesController < ApplicationController
   end
 
   def create
+    @game.save
+
+    respond_with @game
   end
 
   def update
