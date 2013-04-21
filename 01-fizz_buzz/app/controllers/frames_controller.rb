@@ -1,0 +1,2 @@
+class FramesController < ApplicationController
+end
