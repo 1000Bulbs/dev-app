@@ -1,8 +1,7 @@
 Fizzbuzz::Application.routes.draw do
-  resources :frames
-
-
-  resources :games, except: [:edit, :destroy]
+  resources :games, except: [:edit, :destroy] do
+    resources :frames
+  end
 
   devise_for :users, path: :users
 

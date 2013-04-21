@@ -3,7 +3,9 @@ class Frame < ActiveRecord::Base
 
   attr_accessible :answer
 
-  acts_as_list :position
+  belongs_to :game
+
+  acts_as_list :position, scope: game
 
   before_create :set_fizz_buzz
 
