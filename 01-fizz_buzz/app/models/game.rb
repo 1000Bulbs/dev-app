@@ -15,5 +15,17 @@ class Game < ActiveRecord::Base
   attr_accessible :high_number, :time_to_finish
 
   belongs_to :user
-  has_many :frames
+  has_many :frames, order: :position
+
+  after_create :create_first_frame
+
+  def first_frame
+    frames.first
+  end
+
+  private
+
+  def create_first_frame
+    frames.create
+  end
 end

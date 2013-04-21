@@ -7,6 +7,7 @@ class GamesController < ApplicationController
   end
 
   def show
+    redirect_to new_game_frame_path(@game)
   end
 
   def new
@@ -15,7 +16,7 @@ class GamesController < ApplicationController
   def create
     @game.save
 
-    respond_with @game
+    respond_with @game, location: edit_game_frame_path(@game, @game.first_frame)
   end
 
   def update
