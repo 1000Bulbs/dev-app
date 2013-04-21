@@ -5,7 +5,7 @@ class Frame < ActiveRecord::Base
 
   belongs_to :game
 
-  acts_as_list :position, scope: game
+  acts_as_list :position, scope: :game
 
   before_create :set_fizz_buzz
 
