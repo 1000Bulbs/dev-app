@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: frames
+#
+#  id         :integer          not null, primary key
+#  game_id    :integer
+#  position   :integer
+#  fizz_buzz  :string(255)
+#  answer     :integer
+#  correct    :boolean
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  game_id: 1
+  position: 1
+  answer: 1
+  correct: false
+
+two:
+  game_id: 1
+  position: 1
+  answer: 1
+  correct: false
