@@ -7,21 +7,21 @@ class FramesController < ApplicationController
   def index
   end
 
-  def new
-    redirect_to action: :create # Oh no idempotent-o!
-    # render nothing: true
-  end
-
   def create
-    throw "here"
     @frame.save
 
-    respond_with @frame
+    respond_with @frame, location: nil
   end
 
   def edit
+    @next_frame_id = @frame.lower_item.id if @frame.lower_item
   end
 
   def update
+    @frame.update_attributes(params[:frame])
+
+    respond_with @frame do |format|
+      format.json { render json: @frame.to_json }
+    end
   end
 end

@@ -4,7 +4,7 @@ class CreateFrames < ActiveRecord::Migration
       t.integer :game_id
       t.integer :position
       t.string :fizz_buzz
-      t.integer :answer
+      t.string :answer
       t.boolean :correct
 
       t.timestamps

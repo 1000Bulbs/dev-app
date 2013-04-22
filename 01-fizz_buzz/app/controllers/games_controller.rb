@@ -7,7 +7,6 @@ class GamesController < ApplicationController
   end
 
   def show
-    redirect_to new_game_frame_path(@game)
   end
 
   def new

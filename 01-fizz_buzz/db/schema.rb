@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(:version => 20130421225050) do
     t.integer  "game_id"
     t.integer  "position"
     t.string   "fizz_buzz"
-    t.integer  "answer"
+    t.string   "answer"
     t.boolean  "correct"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false

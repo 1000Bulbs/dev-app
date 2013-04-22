@@ -1,3 +1,17 @@
+# == Schema Information
+#
+# Table name: frames
+#
+#  id         :integer          not null, primary key
+#  game_id    :integer
+#  position   :integer
+#  fizz_buzz  :string(255)
+#  answer     :integer
+#  correct    :boolean
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 class Frame < ActiveRecord::Base
   include FizzBuzzable
 
@@ -5,20 +19,38 @@ class Frame < ActiveRecord::Base
 
   belongs_to :game
 
-  # acts_as_list :position, scope: :game_id
+  acts_as_list :scope => :game
 
-  after_commit :set_fizz_buzz
+  before_create :set_fizz_buzz
+  before_update :mark
+
+  def options
+    unique_random(5, position, [fizz_buzzify(position)]).inject([]) do |acc, option|
+      acc << [option, false]
+    end.shuffle
+  end
 
   private
 
-  def set_fizz_buzz
-    if fizz_buzz.empty?
-      self.fizz_buzz = fizz_buzzify(position)
-      save
-    end
+  def mark
+    self.correct = fizz_buzz == answer
   end
 
-  def options
+  def set_fizz_buzz
+    self.fizz_buzz ||= fizz_buzzify(position)
+  end
 
+  def unique_random(count, median, excluded_values = [])
+    while excluded_values.size <= count
+      random_fizz = fizz_buzzify([Random.rand(median-10..median+10), 1].max)
+
+      unless excluded_values.include?(random_fizz)
+        excluded_values << random_fizz
+      end
+
+      unique_random(count, median, excluded_values)
+    end
+
+    excluded_values
   end
 end
