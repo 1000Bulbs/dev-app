@@ -1,24 +1,33 @@
 <div class="row">
-  <div class="columns small-6 small-centered">
-    <table>
-      <thead>
-        <tr>
-          <th>Game #</th>
-          <th># Correct Answers</th>
-          <th>Date</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        <% @games.each do |game| %>
-          <tr>
-            <td><%= game.id %></td>
-            <td><%= game.frames.count %></td>
-            <td><%= game.created_at.strftime("%B %d, %Y") %></td>
-            <td><%= link_to "See Results", game_path(game), class: 'button small' %></td>
-          </tr>
-        <% end %>
-      </tbody>
-    </table>
+  <div class="columns small-8 small-centered">
+    <section id="games-index">
+      <% if @games.present? %>
+        <table>
+          <thead>
+            <tr>
+              <th>Game #</th>
+              <th># Correct Answers</th>
+              <th>Date</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @games.each do |game| %>
+              <tr>
+                <td><%= game.id %></td>
+                <td><%= game.frames.count %></td>
+                <td><%= game.created_at.strftime("%B %d, %Y") %></td>
+                <td><%= link_to "See Results", game_path(game), class: 'button small' %></td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      <% else %>
+        <div class="no-games">
+          <h1>You don't have any games yet.</h1>
+          <%= link_to "Play now", new_game_path, class: 'button large' %>
+        </div>
+      <% end %>
+    </section>
   </div>
 </div>
