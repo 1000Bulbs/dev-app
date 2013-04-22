@@ -2,6 +2,8 @@
 
 ## What's in here ##
 
+This is a FizzBuzz game. See how far you can get before you make an error.
+
 This is a Rails 3.2.12 app with several dependencies in the Gemfile, including:
 
 - Devise
