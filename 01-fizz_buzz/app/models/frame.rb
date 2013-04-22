@@ -30,14 +30,14 @@ class Frame < ActiveRecord::Base
     end.shuffle
   end
 
+  def set_fizz_buzz
+    self.fizz_buzz ||= fizz_buzzify(position)
+  end
+
   private
 
   def mark
     self.correct = fizz_buzz == answer
-  end
-
-  def set_fizz_buzz
-    self.fizz_buzz ||= fizz_buzzify(position)
   end
 
   def unique_random(count, median, excluded_values = [])

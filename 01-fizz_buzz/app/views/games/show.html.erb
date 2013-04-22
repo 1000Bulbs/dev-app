@@ -1,0 +1,28 @@
+<div class="row">
+  <section class="columns small-6 small-centered">
+    <h1>Game #<%= @game.id %></h1>
+    <table id="game-results">
+      <thead>
+        <tr>
+          <th class="correct-answer">Correct Answer</th>
+          <th class="your-answer">Your Answer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% 100.times do |index| %>
+          <% if @game.frames[index].present? %>
+            <tr>
+              <td class="correct-answer"><%= @game.frames[index].fizz_buzz %> (<%= index + 1 %>)</td>
+              <td class="your-answer"><%= @game.frames[index].answer %></td>
+            </tr>
+          <% else %>
+            <tr>
+              <td class="correct-answer"><%= Frame.new(position: index + 1).set_fizz_buzz %> (<%= index + 1 %>)</td>
+              <td class="your-answer"></td>
+            </tr>
+          <% end %>
+        <% end %>
+      </tbody>
+    </table>
+  </section>
+</div>
