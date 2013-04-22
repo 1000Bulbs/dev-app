@@ -34,10 +34,12 @@
       <section class="top-bar-section">
         <!-- Right Nav Section -->
         <ul class="right">
-          <li class="divider"></li>
-          <li><%= link_to "Your Games", games_path %></li>
-          <li class="divider"></li>
-          <li><%= link_to "New Game", new_game_path %></li>
+          <% if user_signed_in? %>
+            <li class="divider"></li>
+            <li><%= link_to "Your Games", games_path %></li>
+            <li class="divider"></li>
+            <li><%= link_to "New Game", new_game_path %></li>
+          <% end %>
           <li class="divider"></li>
           <li class="has-form">
             <% if user_signed_in? %>
@@ -46,12 +48,20 @@
               <%= link_to "Login", new_user_session_path, class: :button %>
             <% end %>
           </li>
+          <li class="divider"></li>
+          <li class="has-form">
+            <% unless user_signed_in? %>
+              <%= link_to "Sign up", new_registration_path('user'), class: 'button' %>
+            <% end %>
+          </li>
         </ul>
       </section>
     </nav>
 
     <div class="row">
-      <div id="alert-wrapper" class="columns small-9 small-centered"></div>
+      <div id="alert-wrapper" class="columns small-9 small-centered">
+        <%= display_flash %>
+      </div>
     </div>
 
     <%= yield %>
