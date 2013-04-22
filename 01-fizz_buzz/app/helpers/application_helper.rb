@@ -16,7 +16,7 @@ module ApplicationHelper
       buffer << "<strong>Uh oh!</strong> #{flash[:error]}"
     end
 
-    buffer << '<a href="" class="close">×</a></div>'
+    buffer << '<a href="" class="close">&times;</a></div>'
     buffer.html_safe
   end
 end
