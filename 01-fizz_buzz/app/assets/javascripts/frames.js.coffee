@@ -14,11 +14,15 @@ fz.frames = (($) ->
     $(document).on('ajax:success', '[id^="edit_frame"]', (event, data, status) ->
       if data.correct
         flash_correct()
-        find_or_create_frame_and_redirect()
+        setTimeout ->
+          find_or_create_frame_and_redirect()
+        , 750
       else
         game_id = $('[id^="edit_frame"]').data('game-id')
         flash_incorrect()
-        window.location = "/games/#{game_id}"
+        setTimeout ->
+          window.location = "/games/#{game_id}"
+        , 750
     ).on('ajax:error', '[id^="edit_frame"]', (event, status, error) ->
       flash_error(error)
     )
@@ -42,11 +46,17 @@ fz.frames = (($) ->
     else
       window.location = "/games/#{game_id}"
 
+  flash = (kind, message) ->
+    alert = $('<div data-alert="" class="alert-box radius">').addClass("#{kind}").html(message + '<a href="" class="close">×</a>')
+    $('#alert-wrapper').append(alert)
+
   flash_correct = ->
     console.debug "Correct!"
+    flash('success', "Correct!")
 
   flash_incorrect = ->
     console.debug "Incorrect!"
+    flash('alert', "Incorrect!")
 
   flash_error = (error) ->
     console.debug "Error:", error

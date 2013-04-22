@@ -1,10 +1,26 @@
 <div class="row">
-  <div class="columns small-12">
+  <div class="columns small-6 small-centered">
     <div class="panel sequence">
       <%= form_for @frame, url: game_frame_path(@game, @frame, format: :json), remote: true,
             html: { :"data-game-id" => @game.id, :"data-position" => @frame.position, :"data-next-frame-id" => "#{@next_frame_id}" } do |f| %>
-        <%= render 'form', f: f %>
+        <div class="fields">
+          <%  @frame.options.each do |option| %>
+            <%= f.label "answer_#{option[0].to_s.downcase}" do %>
+              <%= f.radio_button :answer, option[0] %>
+              <%= option[0] %>
+            <% end %>
+          <% end %>
+        </div>
+
+        <div class="actions">
+          <%= f.submit "Answer", class: 'button' %>
+        </div>
       <% end %>
+    </div>
+
+    <div id="end-game">
+      <%= link_to "Forfeit", game_path(@game), class: 'button small alert' %>
     </div>
   </div>
 </div>
+

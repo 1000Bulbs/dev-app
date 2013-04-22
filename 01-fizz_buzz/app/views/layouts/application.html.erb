@@ -21,7 +21,36 @@
   </head>
 
   <body>
+    <nav class="top-bar">
+      <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+          <h1><a href="/">The FizzBuzz Challenge</a></h1>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
 
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="divider"></li>
+          <li><%= link_to "New Game", new_game_path %></li>
+          <li class="divider"></li>
+          <li class="has-form">
+            <% if user_signed_in? %>
+              <%= link_to "Logout", destroy_user_session_path, method: :delete, class: :button %>
+            <% else %>
+              <%= link_to "Login", new_user_session_path, class: :button %>
+            <% end %>
+          </li>
+        </ul>
+      </section>
+    </nav>
+
+    <div class="row">
+      <div id="alert-wrapper" class="columns small-9 small-centered"></div>
+    </div>
 
     <%= yield %>
 

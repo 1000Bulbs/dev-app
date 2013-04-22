@@ -9,7 +9,6 @@ class FramesController < ApplicationController
 
   def create
     @frame.save
-
     respond_with @frame, location: nil
   end
 
