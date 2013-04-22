@@ -17,7 +17,7 @@ A few random gems for development:
 - better_errors
 - binding_of_caller (supports better_errors)
 
-Oh and you need to use Ruby 1.9.3. :)
+Oh and you need to use Ruby 1.9.3 or higher. :)
 
 ## Getting started ##
 
