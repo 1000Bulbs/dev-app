@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="columns small-12">
+    <div class="panel sequence">
+      <%= form_for @frame, url: game_frame_path(@game, @frame, format: :json), remote: true,
+            html: { :"data-game-id" => @game.id, :"data-position" => @frame.position, :"data-next-frame-id" => "#{@next_frame_id}" } do |f| %>
+        <%= render 'form', f: f %>
+      <% end %>
+    </div>
+  </div>
+</div>
