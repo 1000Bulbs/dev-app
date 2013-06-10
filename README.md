@@ -1,46 +1,31 @@
-# Are you a developer? Have you ever seen a light bulb? We've got a job for you. #
+# Running this version of FizzBuzz #
 
-But first an introduction...
+## Quick Assessment Guide ##
 
-## About Us ##
+		1. cd into the 01-fizz_buzz directory
+		2. 'cucumber'
+		3. 'rspec spec --color --format nested'
+		4. 'ruby init.rb'
+		5. watch the magic of fizzbuzz unfold
 
-We're the development team behind [1000Bulbs.com](http://www.1000bulbs.com). We build the software that sells more light bulbs online than you'd probably believe *and* we've got a pretty neat development stack including:
+## Breakdown ##
 
-* PHP 5.3
-* Ruby on Rails
-* Resque
-* jQuery
-* Backbone.js
-* Compass/SASS/SCSS
- - We're just starting the transition to responsive layouts.
-* PostgreSQL
-* MongoDB
-* MySQL
-* Redis
-* Chef
-* Continuous Integration
-* GitHub (obviously)
+The Engine class gets everything started and handles the main loop for the app.
 
-## About You (ideally) ##
+The Interactor class is responsible for serving up the appropriate responses to user actions.
 
-You're an excellent developer, or at least you try to be. You've got experience building things with some or all of the tech listed above (or would like to). You prefer automated testing.
+The Brain class is responsible for determining which value, according to the business rules of fizzbuzz, should be offered up for whatever number is passed to it.
 
-We're based out of Garland, TX which isn't the most exciting place (though it has been featured multiple times on *Storage Wars: Texas*), so you'll need to be somewhere within proximity.
+The Localizer class is responsible for any (english) user-facing grammar. 
 
-### Benefits include ###
+The Sequencer module runs the main fizzbuzz sequence. Seen here:
+	
+```ruby
+(1..100).each do |num|
+  output.puts( brain.determine_fizzbuzz_value_of num )
+end
+```
 
-* Competitive Salary
-* Awesome Hardware
- - MacBook Pro / Cinema Display
-* Health and Dental insurance
-* Paid vacation and sick days
-* 401k participation
-* Stock Incentive Programs
+## Refactoring ##
 
-## Submitting Your Application ##
-
-1. Clone/fork this repository.
-2. Follow the instructions in each of the subdirectories' README files.
-3. Send us a pull request through GitHub or let us know where we can find your repo.
-
-Should you be new to Git, we recommend [Pro Git](http://git-scm.com/book).
+I would like to apply additional refactoring. However, I have other projects which I must work on as well. But, maybe someday!

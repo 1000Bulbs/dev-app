@@ -1,13 +1,31 @@
-# Show us some code #
+# Running this version of FizzBuzz #
 
-Specifically: *Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".*
+## Quick Assessment Guide ##
 
-This is known as the "FizzBuzz" test. It's pretty common. You can find plenty of solutions on [the Googles](http://lmgtfy.com/?q=fizz+buzz), but that's not the point. Believe it or not you'll have access to the Googles from work!
+		1. cd into the 01-fizz_buzz directory
+		2. 'cucumber'
+		3. 'rspec spec --color --format nested'
+		4. 'ruby init.rb'
+		5. watch the magic of fizzbuzz unfold
 
-The point is to show us you can actually build something. Get as weird with it as you want. Write a RESTful FizzBuzz API. Do it with websockets or write it as a haiku in a Ruby DSL or something?
+## Breakdown ##
 
-Automated tests won't hurt. :D
+The Engine class gets everything started and handles the main loop for the app.
 
-## Got dependencies? ##
+The Interactor class is responsible for serving up the appropriate responses to user actions.
 
-Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab them.
+The Brain class is responsible for determining which value, according to the business rules of fizzbuzz, should be offered up for whatever number is passed to it.
+
+The Localizer class is responsible for any (english) user-facing grammar. 
+
+The Sequencer module runs the main fizzbuzz sequence. Seen here:
+	
+```ruby
+(1..100).each do |num|
+  output.puts( brain.determine_fizzbuzz_value_of num )
+end
+```
+
+## Refactoring ##
+
+I would like to apply additional refactoring. However, I have other projects which I must work on as well. But, maybe someday!
