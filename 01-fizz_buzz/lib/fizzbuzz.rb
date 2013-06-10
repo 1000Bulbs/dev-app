@@ -1,0 +1,5 @@
+require 'fizzbuzz/localizer'
+require 'fizzbuzz/sequencer'
+require 'fizzbuzz/engine'
+require 'fizzbuzz/brain'
+require 'fizzbuzz/interactor'
