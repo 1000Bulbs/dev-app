@@ -21,29 +21,43 @@ Now, I am eager to direct my own passion and knowledge towards cultivating conti
 
 ### Experience ###
 
-#### LifeChurch.tv ####
-		Software Developer
-		LifeChurch.tv
-		Edmond, Oklahoma
-		March 2012 – May 2013
+**Software Developer**
+LifeChurch.tv
+Edmond, Oklahoma
+March 2012 – May 2013
 
-		Design, unit test, and document the LifeChurch.tv API in a BDD, continuous delivery workflow 	leveraging the complete software development life-cycle. Implement requirements using Cucumber / RSpec / Git / Heroku / Ruby on Rails / JavaScript / JSON / XML / SOA / AJAX. Design, unit test, and implement a ruby gem for consumers of the API. Fully refactor (unit tests / patterns / readability / short methods and short classes with single responsibility) and add features to various LifeChurch.tv properties. 
+Design, unit test, and document the LifeChurch.tv API in a BDD, continuous delivery workflow 	
+leveraging the complete software development life-cycle. Implement requirements using Cucumber 
+/ RSpec / Git / Heroku / Ruby on Rails / JavaScript / JSON / XML / SOA / AJAX. Design, unit test, 
+and implement a ruby gem for consumers of the API. Fully refactor (unit tests / patterns / readability 
+/ short methods and short classes with single responsibility) and add features to various LifeChurch.tv 
+properties. 
+  
 
-#### Fraternity ####
-		Development Director / Partner
-		Fraternity Development & Advertising
-		Oklahoma City, Oklahoma
-		January 2011 - Present
+**Development Director / Partner**
+Fraternity Development & Advertising
+Oklahoma City, Oklahoma
+January 2011 - Present
+ 
+Engage with business leaders to translate requirements into working solutions. Analyze, design and implement 
+server and business logic layers for clients using Ruby on Rails as well as PHP and the LAMP stack. Design, 
+maintain and implement persistent storage solutions and model data in MySQL. Apply ORM with appropriate data 
+access layers. Develop mobile applications in iOS using Xcode for development and Core Data for data storage. 
+Develop web applications using unique shopping cart and payment solutions using CodeIgniter. Build client 
+applications using Cocoa. Coordinate version control across the team using Git. Develop client-side solutions 
+using HTML5, CSS, and Javascript (jQuery). 
 
-		Engage with business leaders to translate requirements into working solutions. Analyze, design and implement server and business logic layers for clients using Ruby on Rails as well as PHP and the LAMP stack. Design, maintain and implement persistent storage solutions and model data in MySQL. Apply ORM with appropriate data access layers. Develop mobile applications in iOS using Xcode for development and Core Data for data storage. Develop web applications using unique shopping cart and payment solutions using CodeIgniter. Build client applications using Cocoa. Coordinate version control across the team using Git. Develop client-side solutions using HTML5, CSS, and Javascript (jQuery). 
 
-#### Wizazzle ####
-		Co-Founder / Lead Developer
-		Wizazzle Web Works
-		Edmond, Oklahoma
-		August 2007 – December 2010
+**Co-Founder / Lead Developer**
+Wizazzle Web Works
+Edmond, Oklahoma
+August 2007 – December 2010
 
-		Manage and provide leadership for three employees. Design and implement solutions in PHP, MySQL and Apache 2 using the MVC architecture pattern and ORM for data access. Design and implement UI, UX, and information architecture requirements for client products. Deploy and maintain web applications for clients. Build original modules using Javascript.
+Manage and provide leadership for three employees. Design and implement solutions in PHP, MySQL and Apache 
+2 using the MVC architecture pattern and ORM for data access. Design and implement UI, UX, and information 
+architecture requirements for client products. Deploy and maintain web applications for clients. Build original 
+modules using Javascript.
+
 
 ### Skills ###
 
@@ -58,28 +72,33 @@ Design Patterns, Anti-Patterns, OOP Analysis & Design, BDD & TDD
 
 ### Education ###
 
-#### University (2012 - Present) ####
-		University Central Oklahoma — Edmond, OK
-		Pursuing a dual major: BS in Computer Science & BS in Information Science
+**University (2012 - Present)**
+University Central Oklahoma — Edmond, OK
+Pursuing a dual major: BS in Computer Science & BS in Information Science
 
-#### University (2007 - 2009) ####
-		Oklahoma Christian University — Edmond, OK
-		Completed 60 credits toward a B.A. in Mass Communications
+**University (2007 - 2009)**
+Oklahoma Christian University — Edmond, OK
+Completed 60 credits toward a B.A. in Mass Communications
 
-#### High School ####
-		Greater Atlanta Christian School — Norcross, GA
-		Class of 2007
-
+**High School**
+Greater Atlanta Christian School — Norcross, GA
+Class of 2007
 
 ## Favorite Books ##
 
-“Design Patterns” — Gang of Four
-“Patterns of Enterprise Application Architecture” — Martin Fowler
-“Refactoring” — Martin Fowler
-"Domain-driven Design" — Eric Evans
-“Practical Object-Oriented Design with Ruby” — Sandi Metz
-“SOA with REST” — Thomas Erl et al
-“JavaScript: The Good Parts” — Douglas Crockford
+**“Design Patterns”** — Gang of Four
+
+**“Patterns of Enterprise Application Architecture”** — Martin Fowler
+
+**“Refactoring”** — Martin Fowler
+
+**"Domain-driven Design"** — Eric Evans
+
+**“Practical Object-Oriented Design with Ruby”** — Sandi Metz
+
+**“SOA with REST”** — Thomas Erl et al
+
+**“JavaScript: The Good Parts”** — Douglas Crockford
 
 ## Ruby Code Examples ##
 
