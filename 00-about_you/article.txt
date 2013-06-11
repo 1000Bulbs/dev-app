@@ -1,0 +1,2 @@
+This is a link to an article I wrote for Make magzine
+http://blog.makezine.com/2008/11/19/analog-amp-meter-clock/
