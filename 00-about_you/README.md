@@ -1,9 +1,5 @@
-# All about you #
+# Some about me #
 
-We'd like to know more about you. So drop your resume in here.
+You'll be able to find me spending time with my wife and daughter, cooking up something tasty in the kitchen, using my computer for work or play (Lubuntu with Opera for most web browsing and Chrome for the dev tools) and wishing I had time to play an occasional Dominion game.
 
-Got a cool web app you've built? Link us to it.
-
-Got a Hacker News account full of snarky/insightful comments? Rad. We want to read those snarky/insightful comments.
-
-Got a GitHub account? We'll probably actually figure that out from the pull request. Don't worry about that one.
+Unfortunately I do not have much of anything public on GitHub, aside from a long abandoned personal project from years ago that could use some serious refactoring. It is more up to date on code.google.com/p/webvo (but not for the faint of heart). The serenity branch is the most current, but only browse it if you want to get lost in a mess of code (i.e. the rails conversion did not start from a clean branch, it was added to the "webvo" directory, ick). This project unofficially disbanded due to our busy schedules, the conversion of TV broadcast systems to HD with our lack of a capable capture card (TV DRM and HD) and the service we used to obtain the schedule data had transitioned to a pay service after being in limbo for a while.
