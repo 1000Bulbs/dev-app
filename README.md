@@ -1,46 +1,14 @@
-# Are you a developer? Have you ever seen a light bulb? We've got a job for you. #
+# Building and Dependencies #
 
-But first an introduction...
+Run this
 
-## About Us ##
+```bash
+$ bundle install
+$ rake
+```
 
-We're the development team behind [1000Bulbs.com](http://www.1000bulbs.com). We build the software that sells more light bulbs online than you'd probably believe *and* we've got a pretty neat development stack including:
+Now you may open the generated html in your favorite* browser.
 
-* PHP 5.3
-* Ruby on Rails
-* Resque
-* jQuery
-* Backbone.js
-* Compass/SASS/SCSS
- - We're just starting the transition to responsive layouts.
-* PostgreSQL
-* MongoDB
-* MySQL
-* Redis
-* Chef
-* Continuous Integration
-* GitHub (obviously)
+Written and tested in Lubuntu with Ruby 1.9.3, Chrome 26 and Opera 12.16
 
-## About You (ideally) ##
-
-You're an excellent developer, or at least you try to be. You've got experience building things with some or all of the tech listed above (or would like to). You prefer automated testing.
-
-We're based out of Garland, TX which isn't the most exciting place (though it has been featured multiple times on *Storage Wars: Texas*), so you'll need to be somewhere within proximity.
-
-### Benefits include ###
-
-* Competitive Salary
-* Awesome Hardware
- - MacBook Pro / Cinema Display
-* Health and Dental insurance
-* Paid vacation and sick days
-* 401k participation
-* Stock Incentive Programs
-
-## Submitting Your Application ##
-
-1. Clone/fork this repository.
-2. Follow the instructions in each of the subdirectories' README files.
-3. Send us a pull request through GitHub or let us know where we can find your repo.
-
-Should you be new to Git, we recommend [Pro Git](http://git-scm.com/book).
+*Chrome/Firefox/Opera/Safari should all be acceptable. If you are using IE, I assume it is against your will and have pity on you.
