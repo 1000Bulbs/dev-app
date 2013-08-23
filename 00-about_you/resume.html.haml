@@ -1,0 +1,104 @@
+-content_for :title, 'Resume for David Hopkins!'
+.contact
+  .name David Hopkins
+  .email mr.david.hopkins@gmail.com
+
+.summary
+  .title PROFESSIONAL SUMMARY
+  Skilled Ruby on Rails developer looking to continue my developing career. Six years of experience with Ruby and Ruby on Rails. Experience in both collaborative and individual environments. It is my goal to find employment with a company that allows me to continue using Ruby on Rails and allows me to exercise my love for writing efficient, elegant code and clear, clean user interfaces.
+
+.technical_skills
+  .title TECHNICAL SKILLS
+  -%w[Ruby Rails JavaScript CoffeeScript jQuery Foundation Git Subversion HTML CSS Sass erb Haml JSON SVG SQL Java C C++ C# PHP Windows Linux VMware VirtualBox].each do |s|
+    %span.skill= s
+
+.professional_experience
+  .title PROFESSIONAL EXPERIENCE
+  .job
+    Imikimi.com LLC Seattle, WA  Web Application Programmer/Designer  10/2011-5/2013
+    .job_bullet Designed and implemented new features and layout tweaks
+    .job_bullet Used Ruby on Rails 2, 3 and 4
+    .job_bullet Collaberated on two new Rails applications
+    .job_bullet Wrote mainly in Ruby, Coffeescript, Javascript, erb, haml
+    .job_bullet Used a Linux machine as development environment
+    .job_bullet Target environment: Web
+
+  .job
+    JBF Embedded Solutions Edmonds, WA  Programmer/Designer   08/2010-07/2011
+    .job_bullet Designed and implemented a GUI in C#
+    .job_bullet Wrote a C# wrapper for a custom DLL written in C
+    .job_bullet Displayed live video feeds from Ethernet source (through DLL)
+    .job_bullet Used a serial port to communicate with a PTZ camera
+    .job_bullet Wrote and tested with Microsoft Visual Studio 2010
+    .job_bullet Target environment: Windows XP/Vista/7
+
+  .job
+    Close Group Inc Seattle, WA Web Application Programmer/Designer 08/2006-07/2011
+    .job_project
+      Web based wellness program (www.wellmeals4u.com)
+      .project_bullet Designed and implemented with Ruby on Rails
+      .project_bullet Generated a shopping list, assembly directions, cooking directions and nutrition information for a set of meals based on a user’s desired number of servings per meal
+      .project_bullet Utilized USDA National Nutrient Database for Standard Reference to calculate nutritional information and perform other various calculations (loaded the database into MySQL)
+      .project_bullet Included order processing integration with Google Checkout
+      .project_bullet Used git and subversion as source control
+      .project_bullet Used a Linux virtual machine to write and test
+      .project_bullet Deployed to a Linux server
+    .job_project
+      Web based safety manual and generated documents
+      .project_bullet Designed and implemented with Ruby on Rails
+      .project_bullet Provided simple web access to and management of a rather large safety manual
+      .project_bullet Provided a way to dynamically generate printable documents specific to a construction site
+      .project_bullet Utilized Microsoft's OLE to populate Word documents with site specific information
+      .project_bullet Used git as source control
+      .project_bullet Used a Linux virtual machine and a Windows test machine to write and test
+      .project_bullet Target deployment: Windows XP/Vista/7
+    .job_project
+      Questionnaire (Communication Works!)
+      .project_bullet Backend written in PHP and MySQL
+      .project_bullet Front end written in Javascript, HTML and CSS
+      .project_bullet Each question's answers are ranked first through fourth
+      .project_bullet Generated a graph based on the questionnaire with SVG
+      .project_bullet Wrote a utility to convert the SVG graphs to PDF and/or JPG using Java
+      .project_bullet Wrote custom SQL queries for all data reads/writes
+
+  .job
+    Seattle Pacific University Seattle, WA  Lab Tech  08/2005-06/2006
+    .job_bullet Maintained and wrote scripts (batch) for computers on the SPU network
+    .job_bullet Wrote an unattended install script (batch) for Microsoft Visual Studio 2005
+    .job_bullet Troubleshot various computer hardware/software issues
+
+.personal_projects
+  .title PERSONAL PROJECTS
+  .personal_project
+    Personal Video Recorder
+    .project_bullet Program to download TV schedule data and record selected shows
+    .project_bullet Backend was originally in Ruby with custom self written SQL statements
+    .project_bullet Migrated to Ruby on Rails after comfortable with Ruby
+    .project_bullet Stored/managed/searched a lot of programming data
+    .project_bullet Used git and subversion as source control
+    .project_bullet Used a Linux virtual machine to write and test
+    .project_bullet Deployed to a Linux server
+
+  .personal_project
+    SVG Go
+    .project_bullet Implemented an object based Go board using SVG and ECMAScript/Javascript
+    .project_bullet Various board sizes were selectable
+    .project_bullet Kept track of captured stones and stone group liberties
+    .project_bullet Usable from any web browser with SVG support
+
+  .personal_project
+    Picture Renamer
+    .project_bullet Program in C# to rename and/or move digital pictures based on original directory and Exif data
+    .project_bullet Target platform: Windows XP
+
+.education
+  .title EDUCATION
+  .degree Bachelor of Science: Computer Science (with Computer Engineering minor)
+  .university Seattle Pacific University, June 2006 - Cumulative GPA 3.84
+
+.achievements
+  .title ACHIEVEMENTS
+  .achievement Kenneth W. Smith, Sr. Scholarship (awarded on academic achievement), Computer Science Dept, SPU, 2005-2006
+  .achievement Highest American Mathematics Contest 12 score in Alaska, 2002
+  .achievement Presidential Scholarship, SPU, 2002
+  .achievement National Honor Society, 2001-2002

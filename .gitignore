@@ -1,2 +1,7 @@
 # vim every day
 *.swp
+
+# all web files are generated
+*.css
+*.html
+.sass-cache

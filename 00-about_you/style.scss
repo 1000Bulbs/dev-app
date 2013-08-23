@@ -1,0 +1,71 @@
+body {
+  margin: 10px auto;
+  @media screen and (min-width: 650px) {
+    width: 600px;
+  }
+}
+
+.title {
+  font-weight: bold;
+}
+
+.skill {
+  padding: 3px;
+  cursor: default;
+  line-height: 140%;
+  white-space: nowrap;
+  border-radius: 3px;
+  &:hover { 
+    background-color: #aaa; 
+    &:after {
+      content: 'shiny';
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      padding: 3px;
+      background-color: #3aa;
+    }
+  }
+}
+
+.contact, .summary, .technical_skills, .professional_experience, .personal_projects, .education, .achievements {
+  padding: 10px;
+}
+
+.contact {
+  .name {
+    font: {
+      weight: bold;
+      size: 125%;
+    }
+  }
+}
+
+.job, .personal_project {
+  margin-left: 10px;
+  position: relative;
+  font-style: italic;
+  .job_bullet, .project_bullet {
+    font-style: normal;
+    margin-left: 25px;
+    &:before {
+      content: '';
+      border-radius: 50%;
+      background-color: black;
+      width: 6px;
+      height: 6px;
+      position: absolute;
+      left: 13px;
+      margin-top: 7px;
+    }
+  }
+}
+
+.job_project {
+  margin-left: 15px;
+  position: relative;
+}
+
+.education .degree {
+  font-weight: bold;
+}

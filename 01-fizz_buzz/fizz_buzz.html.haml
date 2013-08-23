@@ -1,0 +1,5 @@
+-content_for :title, 'CSS FizzBuzz!'
+.numbers
+  - (1..100).each do |num|
+    .number{data: {number: num}}
+      =num

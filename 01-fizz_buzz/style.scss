@@ -1,0 +1,35 @@
+.number {
+  border-right: thin solid black;
+  width: 40px;
+  padding: 3px;
+  margin: 0px auto;
+  position: relative;
+  text-align: right;
+  &:after {
+    content: attr(data-number);
+    position: absolute;
+    left: 50px;
+    @media screen and (max-width: 600px) {
+      position: relative;
+      border-left: thin solid black;
+      padding-left: 3px;
+      left: 0px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    width: auto;
+    float: left;
+    border: thin solid black;
+    margin: 3px;
+  }
+  @media screen and (max-width: 210px) {
+    font-size: 40%;
+  }
+}
+
+.numbers div {
+  &:nth-child(3n):after { content: 'Fizz'; }
+  &:nth-child(5n):after { content: 'Buzz'; }
+  &:nth-child(15n):after { content: 'FizzBuzz'; }
+}
+
