@@ -1,0 +1,22 @@
+#games-index {
+  table {
+    width: 100%;
+  }
+
+  .no-games {
+    text-align: center;
+  }
+}
+
+#new-game {
+  text-align: center;
+}
+
+#game-results {
+  width: 100%;
+
+  th, td {
+    width: 50%;
+    text-align: center;
+  }
+}
