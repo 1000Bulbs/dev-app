@@ -1,0 +1,29 @@
+.container{
+	width: 700px;
+	height: 400px;
+	margin-left: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.container h4{
+	margin-left: 310px;
+}
+
+.container #show{
+	margin-left: 310px;
+	margin-top: 50px;
+}
+
+.content{
+	position: relative;
+	width: 350px;
+	height: 250px;
+	overflow: scroll;
+	background: #D3D3D3;
+	margin-left: 200px;
+}
+
+.content ul{
+    list-style-type: none;
+}
