@@ -1,0 +1,91 @@
+Shannon Davis
+PHP Lamp Developer
+
+About Me:
+I've been coding since I was 11 years old where my first home computer was a Tandy Color Computer 2 with 64k internal RAM with an attached tape drive. I
+later purchased a single external 5.25" floppy disk drive and then a second external drive. I learned the disk based operating language and spent my 
+weekends going to the local library, reading Commodore magazines because there wasn't much published for the Color Computer. I tried endlessly to develop
+a way to convert the Commodore code examples into Tandy basic (also called TRS/Trash Basic). After realizing you couldn't store much on the floppy disk, I
+learned ways to read and write to specific sectors on the disk, essentially storing more information onto the disk than the Disk Basic would permit including
+encrypted data. I was always trying to push the envelope even way back then. The ability to push that envelope still exists in my eagerness to learn better and
+more efficient methods to accomplish coding tasks today.
+
+On my time off, I spend it relaxing or working in the yard. I enjoy land scaping and even walking the creek banks looking for fossils.
+
+Specialties
+Web Technologies:
+
+◦ Languages:
+  ◦ PHP, Perl/CGI, Flash ActionScript
+◦	Databases:
+  ◦	ODBC: MySQL, phpMyAdmin, MsSQL, PostgreSQL
+◦	Markup Languages:
+  ◦	XHTML, HTML, DHTML, SHTML, PHTML
+◦	Data Interchange via ajax and similar calls:
+  ◦	json, xml and other raw data array formats
+◦	Web Miscellaneous:
+  ◦	CSS, CSV and Excel creation via coding, PDF automation via tcpdf.
+◦	Server-side utilities:
+  ◦	Cron jobs, Batch and Bash scripting, shell
+◦	Operating Systems:
+  ◦	Linux, Windows Server 2008, Windows (3.1, 95, 98, 2000, XP, Vista, 7), MS-DOS
+◦	Graphics:
+  ◦	Photoshop (Creative Suite), Fireworks, Illustrator, Flash, Paintshop Pro, MS Paint, Gimp
+
+Coding Experience
+	2006 – present: 7 years Lamp development with PHP
+	1995 – 2007: Lamp development with Perl/CGI
+
+Work Experience
+
+PHP Developer at H&K International
+October 2010 - Present (2 years 5 month)
+Developed internal manufacturing and product tracking applications for external clients. Developed numerous report tracking applications and internal applications for the executive team. Worked directly with external clients (McDonald’s, Applebee's, IHOP, Wataburger, etc.) in developing applications to assist in business transactions with H&K International. Developed internal Human Resource web tools to aid in support for internal employees. Played a key role in optimizing Enterprise level software ranging from code re-factoring to SQL Query optimization to CPU and Load Balancer monitoring scripts (via cron jobs). I also developed a QR code generation software application in which the corporation can fix bar codes to their products, documentation and brochures which point to mobile friendly applications containing product specifications and how-to videos. I pushed for several innovative projects within this job and led teams to help in the innovation.
+
+PHP Developer at HRsmart
+December 2007 - April 2010 (2 years 5 months)
+Developed customizations for numerous corporate sites in a LAMP environment. Implemented and maintained customized software solutions primarily in Learning Management System applications. Developed complex phone-in applications using Interactive Voice Response (IVR) systems via Voxeo and interfaced with PHP applications. Led a team to implement and make available the French Canadian language translation to a number of Canadian clients. Led prompt responses to resolve client needs under tight time-lines. Collaborated with other internal and external teams/developers while working on parallel projects for the same client or similar projects. Worked with technologies such as PHP (100%), Smarty, Javascript/AJAX, MySQL, CSV (Flat-File) and other coding methods. Worked in a SSH environment using Putty and Concurrent Versions System (CVS). Worked on building skills with numerous code re-factoring and query optimization projects.
+1 recommendation available upon request
+
+PHP Developer at New Media Gateway - Contracting for TekSystems
+October 2007 - December 2007 (3 months)
+Implemented customizations or modifications to existing client sites via SSH. Worked with PHP (100%), HTML, Javascript, PostgreSQL, MySQL, Smarty and proprietary New Media Gateway Content Management Systems. Collaborated with other developers working on parallel projects on the same client to assure no conflicts would arise. Gained experience utilizing multilingual translation concepts for international websites. Helped brainstorm implementation and new client projects in a group gathering setting. Worked in a SSH environment using Putty and Subversion.
+
+Perl & PHP Developer at American Newspaper Association
+January 2005 - October 2007 (2 years 10 months)
+Designed, developed and Implemented Secure (SSL) E-Commerce websites for newspaper subscription payments and classified ad purchase applications using a combination of PHP (80%) and Perl (20%) with a MySQL database. The classified ad applications included WYSIWYG editors with AJAX UI's which were designed to incorporate the data directly into Adobe InDesign via XML or sweetened text for the rapid building of newspapers. Each site utilized SSL certificates and encrypted cookies for the customer applications. I designed numerous applications for both the front-end and back-end of ANA's sites.
+
+Redesigned web sites for the fast loading of a large volumes of documents and graphics utilizing per-rendered Server Side Includes (SSI) versus a programming language (greatly increased performance). Perl was mostly used for Internet and Intranet applications. Utilized MySQL for database storage. Built all Internet and Intranet sites. Built & Designed pending Flash/Actionscript Video News Feed relay, in which the compiling XML data is rendered with Perl using CRONTAB at regular intervals. The finished Flash program will run much like an automated jukebox and stream video content to a user’s Web browser. Redesigned look and direction for print edition and website of newspaper and affiliate newspapers. I greatly increased readership and traffic flow to the business.
+
+Graphics and Web Developer at Manda Homes LLC
+2003 - 2006 (3 years)
+Designed and maintained front-end and back-end applications for a Home Vesting business in Irving, TX. I worked with a combination of technologies including CSS, DHTML, Perl (50%), PHP (50%), MySQL, Javascript/AJAX and XML. I helped establish a presence on-line so Manda Homes could showcase home renovations in a Web gallery with e-commerce applications so interested customers could inquire about properties.
+
+Perl Developer at Times USA
+1995 - 2002 (7 years)
+Entered the Web business as front-end Website designer and graphic artist in 1995. Programmed web applications in Perl (100%) to assist in the development of the newspaper between Mac/Apple and PC systems. Began making push to develop sites using PHP in late 2002. Designed display ad art for newspaper and classified ads using Photoshop, Paintshop Pro and other graphics applications. Created custom clip art and prepared all news for publication into the newspaper. Promoted to editor in December 2001. I proposed to the publisher, the expansion of Times-USA into the surrounding communities. I officially launched Grand Prairie Times and Cedar Hill Times in late 2001 which included designing the overall look and feel of the 2 new newspaper publications. The business grew financially into 2005. This success led to my return in 2005 and I launched a rebuild/ remodel of the 2 newspapers with new web applications. Utilized flat-file method for data storage on all Websites before converting to MySQL in 2003.
+
+Skills & Expertise
+◦	PHP, Perl/CGI
+◦	MySQL, MSQL, PostgreSQL, phpMyAdmin
+◦	Batch and Bash scripting
+◦	Zend Framework
+◦	CSS
+◦	HTML, XHTML, SHTML, DHTML, PHTML
+◦	AJAX
+◦	JSON, XML, XSL
+◦	Javascript, jQuery, Ext JS
+◦	Flash, Actionscript, Flex
+◦	Smarty Templates
+◦	Traditional Hard/Hand coding
+◦	SSH, FTP, VPN, VNC, RDP
+◦	Debug tracking skills
+◦	Re-factoring, code optimization
+
+Education
+◦	New Horizons Dallas
+  ◦	SQL Database training
+◦	Northlake College
+  ◦	Associate of Science (A.S.), Broadcast Journalism
+◦	Northlake College
+  ◦	Flash/Actionscript, Adobe Creative Suite, Quark Xpress
