@@ -1,0 +1,31 @@
+.top-margin{
+	margin-top:0px;
+}
+body {
+  min-height:100vh;
+  margin: 0;
+  background-image:url(../img/green.jpg);
+}
+div.container
+{
+  color:#666362;	
+  font-family:Verdana;
+  font-size:1em;
+}
+span.number
+{
+	color:#6CBB3C;
+	font-weight:bold;
+	font-size:1em;
+}
+span.fizzbuzz
+{
+	font-weight:bold;
+	font-size:1em;
+}
+span.hireHagan
+{
+	font-weight:bold;
+	font-size:1em;
+	color:#1884C7;
+}
