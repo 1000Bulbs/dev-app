@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FizzBuzz</title>
+	<meta name="viewport" content="wdth=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="">
+	<header>
+		<nav class="navbar navbar-default" role="navigation">
+		  <div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#" onclick="alertInfo()">HELP!</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+				  <input type="text" id="fizz" class="form-control" placeholder="FIZZ">
+				  <input type="text" id="buzz" class="form-control" placeholder="BUZZ">
+				</div>
+				<button type="button" id="subBtn" class="btn btn-default" onclick="">Execute</button>
+			  </form>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="http://www.haganmcphail.com">HaganMcPhail.com</a></li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-lg-6 col-xl-6">
+				<div class="panel panel-default">
+				    <div class="panel-heading">Lame Results :(</div>
+						<div class="panel-body">
+						<div id="lameResults"></div>
+				    </div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-6 col-xl-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">Cool Results :)</div>
+					<div class="panel-body">
+					<div id="coolResults"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+			$(document).ready(function(){
+		    	
+				$('#subBtn').click(function(){
+					var f = document.getElementById('fizz').value;
+					var b = document.getElementById('buzz').value;
+					if (f != '' && b != ''){
+						replaceText(f,b);
+					}else{
+						alert("Please do not leave blank");
+					}
+				});
+		    	
+	        });
+		</script>
+</body>
+</html>
