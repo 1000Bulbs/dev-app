@@ -1,9 +1,10 @@
-# All about you #
+# Some of my work:
+Since I've been working for a private corporation for the last 2 years, not much of what I've done is available online these days. But there are a few things you can take a look at that showcase my abilities with Angular particularly:
 
-We'd like to know more about you. So drop your resume in here.
+[My Personal Site](http://jonathonharrell.com/)
+[My Personal Blog](http://blog.jonathonharrell.com/) (I'm not very active on it)
+both are written in node, the blog in a platform called [Ghost](https://ghost.org/)
 
-Got a cool web app you've built? Link us to it.
+The front end for my personal site is Angular, but it doesn't do much in this case save for pull my blog posts and twitter feed. From my personal site there are links to my github and bitbucket accounts, as well as twitter and linkedin.
 
-Got a Hacker News account full of snarky/insightful comments? Rad. We want to read those snarky/insightful comments.
-
-Got a GitHub account? We'll probably actually figure that out from the pull request. Don't worry about that one.
+[A project I started for eTrak](http://162.250.232.159/#!/map)

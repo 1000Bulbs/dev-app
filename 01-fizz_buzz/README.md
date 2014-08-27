@@ -1,13 +1,15 @@
-# Show us some code #
+# Instruction:
 
-Specifically: *Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".*
+    cd 01-fizz_buzz/ && node run -i %n
 
-This is known as the "FizzBuzz" test. It's pretty common. You can find plenty of solutions on [the Googles](http://lmgtfy.com/?q=fizz+buzz), but that's not the point. Believe it or not you'll have access to the Googles from work!
+Where %n is the number of iterations you'd like to fizzbuzz through.
 
-The point is to show us you can actually build something. Get as weird with it as you want. Write a RESTful FizzBuzz API. Do it with websockets or write it as a haiku in a Ruby DSL or something?
+There are also some additional arguments you can provide
 
-Automated tests won't hurt. :D
+    node run --iterations 100 --fizz 3 --buzz 5
 
-## Got dependencies? ##
+This will tell the program to fizz on divisible by 3, and buzz on divisible by 5, and to iterate 100 times.
 
-Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab them.
+Then just watch it go!
+
+Run `npm test` and have mocha installed to run tests.

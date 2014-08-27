@@ -1,0 +1,31 @@
+{
+  "name": "fizzBuzz",
+  "version": "0.0.1",
+  "description": "fizz buzz test",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathonharrell/dev-app/tree/master/01-fizz_buzz"
+  },
+  "keywords": [
+    "fizzbuzz"
+  ],
+  "author": "Jonathon Harrell",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "~0.6.2",
+    "commander": "~2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.21.4",
+    "should": "~4.0.4"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  }
+}
