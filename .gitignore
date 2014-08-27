@@ -1,2 +1,3 @@
 # vim every day
 *.swp
+node_modules/
