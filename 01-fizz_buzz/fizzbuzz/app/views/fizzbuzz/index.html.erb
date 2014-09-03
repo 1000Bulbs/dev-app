@@ -1,0 +1,17 @@
+<% if @mod.present? %>
+     <h1>FizzBuzz Haiku</h1>
+<%   if @fizztext == 'FizzBuzz' %>
+       Divide by <%= @mod %><br />
+       The sound of fizzing humming<br />
+<%   elsif @fizztext == 'Fizz' %>
+       When divide by <%= @mod %><br />
+       The sound of alka-seltzer<br />
+<%   else %>
+       When divide by <%= @mod %><br />
+       The sound of fizzing<br />
+<%   end  %>
+     Resounds through the air<br />
+<% else %>
+     <h1>No Haiku 4 U</h1>
+     Your number is <%= @num %>
+<% end %>
