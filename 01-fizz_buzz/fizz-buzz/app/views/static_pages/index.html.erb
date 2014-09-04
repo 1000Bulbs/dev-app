@@ -1,0 +1,55 @@
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script>
+
+var results = [];
+
+var FizzBuzz = function(num) {
+  results[num - 1] = num;
+  d3.json('/isFizz/' + num, function(error, json) { 
+    if (json.result) {
+      results[num - 1] = 'Fizz';
+    }
+  });
+  d3.json('/isBuzz/' + num, function(error, json) {
+    if (json.result) {
+      results[num - 1] = 'Buzz';
+    }
+  });
+  d3.json('/isFizzBuzz/' + num, function(error, json) {
+    if (json.result) {
+      results[num - 1] = 'FizzBuzz';
+    }
+  });
+}
+ 
+//(function() {
+//    var START = 1, END = 100;
+// 
+//    var list = d3.range(START, END + 1).map(FizzBuzz);
+// 
+//    var fbData = [];
+//    for(var i = 0; i < END; i += 10){
+//        fbData.push(list.slice(i, i + 10) );
+//    }
+// 
+//    var table = d3.select('body')
+//        .append('table');
+// 
+//    var tr = table.selectAll('tr')
+//        .data(fbData)
+//        .enter()
+//        .append('tr');
+// 
+//    var td = tr.selectAll('td')
+//        .data(function(d){ return d }) 
+//        .enter()
+//        .append('td')
+//        .attr({
+//            class:function(d){ 
+//                return (typeof d=='string') ? d : null;
+//            }
+//        })
+//        .text(function(d){ return d } );
+//})();
+</script>
+Hello, world.

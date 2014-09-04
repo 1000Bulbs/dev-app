@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
-  get 'isMultOfThree/:val' => 'fizz_buzz#isMultOfThree', :defaults => { :format => 'json' }
-  get 'isMultOfFive/:val' => 'fizz_buzz#isMultOfFive', :defaults => { :format => 'json' }
+  root 'static_pages#index'
+  get 'static_pages/index'
+
+  get 'isFizz/:val' => 'fizz_buzz#isFizz', :defaults => { :format => 'json' }
+  get 'isBuzz/:val' => 'fizz_buzz#isBuzz', :defaults => { :format => 'json' }
+  get 'isFizzBuzz/:val' => 'fizz_buzz#isFizzBuzz', :defaults => { :format => 'json' }
 end

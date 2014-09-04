@@ -22,17 +22,30 @@ class FizzBuzzFlowTest < ActionDispatch::IntegrationTest
     assert getsFive(45)
   end
 
+  test "get some fizzbuzzes" do
+    assert_not getsFizzBuzzes(3)
+    assert_not getsFizzBuzzes(5)
+    assert getsFizzBuzzes(15)
+  end
+
   private
 
   def getsThree(val)
-    get "/isMultOfThree/#{val}"
+    get "/isFizz/#{val}"
     assert_response :success
     assert assigns(:result)
     assigns(:result)['result']
   end
 
   def getsFive(val)
-    get "/isMultOfFive/#{val}"
+    get "/isBuzz/#{val}"
+    assert_response :success
+    assert assigns(:result)
+    assigns(:result)['result']
+  end
+
+  def getsFizzBuzzes(val)
+    get "/isFizzBuzz/#{val}"
     assert_response :success
     assert assigns(:result)
     assigns(:result)['result']
