@@ -1,55 +1,62 @@
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+<table id="fizzBuzzes"></table>
+<div class="center"><button id="selectFizzes">Select Fizzes</button> <button id="selectBuzzes">Select Buzzes</button> <button id="selectFizzBuzzes">Select FizzBuzzes</button></div>
+
 <script>
+d3.json('/fizzBuzz', function(err, json) {
+  var results2d = [];
+  for (var i = 0; i < 100; i += 20) {
+    results2d.push(json.slice(i, i + 20));
+  }
 
-var results = [];
+  var table = d3.select('#fizzBuzzes');
 
-var FizzBuzz = function(num) {
-  results[num - 1] = num;
-  d3.json('/isFizz/' + num, function(error, json) { 
-    if (json.result) {
-      results[num - 1] = 'Fizz';
-    }
-  });
-  d3.json('/isBuzz/' + num, function(error, json) {
-    if (json.result) {
-      results[num - 1] = 'Buzz';
-    }
-  });
-  d3.json('/isFizzBuzz/' + num, function(error, json) {
-    if (json.result) {
-      results[num - 1] = 'FizzBuzz';
-    }
-  });
-}
- 
-//(function() {
-//    var START = 1, END = 100;
-// 
-//    var list = d3.range(START, END + 1).map(FizzBuzz);
-// 
-//    var fbData = [];
-//    for(var i = 0; i < END; i += 10){
-//        fbData.push(list.slice(i, i + 10) );
-//    }
-// 
-//    var table = d3.select('body')
-//        .append('table');
-// 
-//    var tr = table.selectAll('tr')
-//        .data(fbData)
-//        .enter()
-//        .append('tr');
-// 
-//    var td = tr.selectAll('td')
-//        .data(function(d){ return d }) 
-//        .enter()
-//        .append('td')
-//        .attr({
-//            class:function(d){ 
-//                return (typeof d=='string') ? d : null;
-//            }
-//        })
-//        .text(function(d){ return d } );
-//})();
+  var row = table.selectAll('tr')
+    .data(results2d)
+    .enter()
+    .append('tr');
+
+  var col = row.selectAll('td')
+    .data(function(d){ return d })
+    .enter()
+    .append('td')
+    .attr({
+      class:function(d) {
+        return (typeof d == 'string') ? d : null;
+      }
+    })
+    .text(function(d) { return d });
+});
+
+d3.select("#selectFizzes")
+  .on("click", function(d, i) {
+    d3.selectAll(".Fizz")
+      .transition()
+      .duration(750)
+      .style("color", "white")
+      .style("background-color", "#3a4b7f")
+      .ease("bounce");
+  }
+);
+d3.select("#selectBuzzes")
+  .on("click", function(d, i) {
+    d3.selectAll(".Buzz")
+      .transition()
+      .duration(750)
+      .style("color", "white")
+      .style("background-color", "#C1D0FF")
+      .ease("bounce");
+  }
+);
+d3.select("#selectFizzBuzzes")
+  .on("click", function(d, i) {
+    d3.selectAll(".FizzBuzz")
+      .transition()
+      .duration(750)
+      .style("color", "white")
+      .style("background-color", "#5D78CC")
+      .ease("bounce");
+  }
+);
 </script>
-Hello, world.
