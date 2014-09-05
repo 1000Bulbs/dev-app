@@ -1,0 +1,27 @@
+// Place all the styles related to the FizzBuzz controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: sans-serif;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+table {
+  -moz-box-shadow: 0 1px 2px #d1d1d1;
+  -webkit-box-shadow: 0 1px 2px #d1d1d1;
+  box-shadow: 0 1px 2px #d1d1d1;
+}
+
+button {
+  width: 120px;
+  margin: 0 auto;
+}
+
+.center {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}

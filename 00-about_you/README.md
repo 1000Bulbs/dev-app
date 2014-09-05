@@ -1,9 +1,16 @@
 # All about you #
 
-We'd like to know more about you. So drop your resume in here.
+Resume ------
 
-Got a cool web app you've built? Link us to it.
+[Word](https://dl.dropboxusercontent.com/u/5392609/Resume/James%20Childers%20-%20Resume.docx)
+[PDF](https://dl.dropboxusercontent.com/u/5392609/Resume/James%20Childers%20-%20Resume.pdf)
 
-Got a Hacker News account full of snarky/insightful comments? Rad. We want to read those snarky/insightful comments.
+I'm an experienced developer who has professionally worked with Java, Ruby,
+Objective-C, SQL, more MVC frameworks than I can remember, and has a deep
+understanding of web technologies, from HTTP to CSS. I take pride in my work,
+professionalism, and love keeping up with the latest-and-greatest.
 
-Got a GitHub account? We'll probably actually figure that out from the pull request. Don't worry about that one.
+Lately I've been working on a side-business which orignally utilized Dropwizard
++ Hibernate ORM + Flyway, but wound up getting frustrated with it and just went with
+Rails.
+

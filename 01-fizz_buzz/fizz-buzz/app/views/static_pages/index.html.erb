@@ -1,0 +1,62 @@
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+<table id="fizzBuzzes"></table>
+<div class="center"><button id="selectFizzes">Select Fizzes</button> <button id="selectBuzzes">Select Buzzes</button> <button id="selectFizzBuzzes">Select FizzBuzzes</button></div>
+
+<script>
+d3.json('/fizzBuzz', function(err, json) {
+  var results2d = [];
+  for (var i = 0; i < 100; i += 20) {
+    results2d.push(json.slice(i, i + 20));
+  }
+
+  var table = d3.select('#fizzBuzzes');
+
+  var row = table.selectAll('tr')
+    .data(results2d)
+    .enter()
+    .append('tr');
+
+  var col = row.selectAll('td')
+    .data(function(d){ return d })
+    .enter()
+    .append('td')
+    .attr({
+      class:function(d) {
+        return (typeof d == 'string') ? d : null;
+      }
+    })
+    .text(function(d) { return d });
+});
+
+d3.select("#selectFizzes")
+  .on("click", function(d, i) {
+    d3.selectAll(".Fizz")
+      .transition()
+      .duration(750)
+      .style("color", "white")
+      .style("background-color", "#3a4b7f")
+      .ease("bounce");
+  }
+);
+d3.select("#selectBuzzes")
+  .on("click", function(d, i) {
+    d3.selectAll(".Buzz")
+      .transition()
+      .duration(750)
+      .style("color", "white")
+      .style("background-color", "#C1D0FF")
+      .ease("bounce");
+  }
+);
+d3.select("#selectFizzBuzzes")
+  .on("click", function(d, i) {
+    d3.selectAll(".FizzBuzz")
+      .transition()
+      .duration(750)
+      .style("color", "white")
+      .style("background-color", "#5D78CC")
+      .ease("bounce");
+  }
+);
+</script>
