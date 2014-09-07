@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FizzBuzz</title>
+  <meta name="viewport" content="width=device-width" />
+  <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="/style.css">
+
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+  <script src="/fizzbuzz.js"></script>
+</head>
+<body>
+<header class="top-bar">
+  <p>Number range: <span id="amount"></span></p>
+  <div id="slider-range"></div> 
+</header> 
+  <ul id="flex-container"></ul>
+<script>
+var  tb = $('.top-bar');
+    tbs = "top-bar-scrolled";
+
+$(window).scroll(function() {
+  if($(this).scrollTop()) {
+    tb.addClass(tbs);
+  } else {
+    tb.removeClass(tbs);
+  }
+});
+</script>
+</body>
+</html>
