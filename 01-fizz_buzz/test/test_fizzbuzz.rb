@@ -1,25 +1,33 @@
+# test_fizzbuzz.rb
+require File.expand_path '../test_helper.rb', __FILE__
 require './fizzbuzz'
-require 'test/unit'
-require 'rack/test'
 
-class FizzBuzzTest < Test::Unit::TestCase
+class MyTest < MiniTest::Unit::TestCase
+
+  include Rack::Test::Methods
+
+  def app
+    Sinatra::Application
+  end
+
   def test_number_divisable_by_three
-    num = fizzbuzz(9)
-    assert_equal(num,'Fizz')
+    num = find_fizzbuzz 1, 4
+    assert_equal(num, [1, 2, "Fizz", 4])
   end
-  
+
   def test_number_divisable_by_five
-    num = fizzbuzz(10)
-    assert_equal(num,'Buzz')
+    num = find_fizzbuzz 4, 5
+    assert_equal(num, [4, "Buzz"])
+  end
+
+  def test_number_divisable_by_three_and_five
+    num = find_fizzbuzz 14, 16
+    assert_equal(num, [14, "FizzBuzz", 16])
+  end
+
+  def test_return_error_when_non_interger_is_passed
+    num = find_fizzbuzz 5, 'z'
+    assert_equal(num, 'bad value for range')
   end
   
-  def test_number_divisable_by_fifteen
-    num = fizzbuzz(30)
-    assert_equal(num,'FizzBuzz')
-  end
-  
-  def test_number_divisable_by_three_five_or_fifteen
-    num = fizzbuzz(7)
-    assert_equal(num,7)
-  end
 end
