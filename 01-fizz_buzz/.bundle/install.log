@@ -1,0 +1,24 @@
+# Logfile created on 2014-09-08 10:29:34 -0500 by logger.rb/31641
+I, [2014-09-08T10:29:34.725231 #34927]  INFO -- : 0:  hitimes (1.2.2) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/hitimes-1.2.2.gemspec
+I, [2014-09-08T10:29:35.855897 #34927]  INFO -- : 0:  timers (4.0.0) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/timers-4.0.0.gemspec
+I, [2014-09-08T10:29:37.243943 #34927]  INFO -- : 0:  celluloid (0.16.0) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/celluloid-0.16.0.gemspec
+I, [2014-09-08T10:29:38.281996 #34927]  INFO -- : 0:  coderay (1.1.0) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/coderay-1.1.0.gemspec
+I, [2014-09-08T10:29:38.282455 #34927]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-09-08T10:29:44.024343 #34927]  INFO -- : 0:  ffi (1.9.3) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/ffi-1.9.3.gemspec
+I, [2014-09-08T10:29:45.886980 #34927]  INFO -- : 0:  formatador (0.2.5) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/formatador-0.2.5.gemspec
+I, [2014-09-08T10:29:47.918298 #34927]  INFO -- : 0:  rb-fsevent (0.9.4) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/rb-fsevent-0.9.4.gemspec
+I, [2014-09-08T10:29:49.040472 #34927]  INFO -- : 0:  rb-inotify (0.9.5) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/rb-inotify-0.9.5.gemspec
+I, [2014-09-08T10:29:50.348256 #34927]  INFO -- : 0:  listen (2.7.9) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/listen-2.7.9.gemspec
+I, [2014-09-08T10:29:51.650295 #34927]  INFO -- : 0:  lumberjack (1.0.9) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/lumberjack-1.0.9.gemspec
+I, [2014-09-08T10:29:52.924557 #34927]  INFO -- : 0:  method_source (0.8.2) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/method_source-0.8.2.gemspec
+I, [2014-09-08T10:29:54.189363 #34927]  INFO -- : 0:  slop (3.6.0) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/slop-3.6.0.gemspec
+I, [2014-09-08T10:29:55.139521 #34927]  INFO -- : 0:  pry (0.10.1) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/pry-0.10.1.gemspec
+I, [2014-09-08T10:29:55.139957 #34927]  INFO -- : 0:  thor (0.19.1) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/thor-0.19.1.gemspec
+I, [2014-09-08T10:29:56.253134 #34927]  INFO -- : 0:  guard (2.6.1) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/guard-2.6.1.gemspec
+I, [2014-09-08T10:29:57.015002 #34927]  INFO -- : 0:  rspec-support (3.0.4) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/rspec-support-3.0.4.gemspec
+I, [2014-09-08T10:29:58.466107 #34927]  INFO -- : 0:  rspec-core (3.0.4) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/rspec-core-3.0.4.gemspec
+I, [2014-09-08T10:29:59.922362 #34927]  INFO -- : 0:  rspec-expectations (3.0.4) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/rspec-expectations-3.0.4.gemspec
+I, [2014-09-08T10:30:01.335204 #34927]  INFO -- : 0:  rspec-mocks (3.0.4) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/rspec-mocks-3.0.4.gemspec
+I, [2014-09-08T10:30:02.511586 #34927]  INFO -- : 0:  rspec (3.0.0) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/rspec-3.0.0.gemspec
+I, [2014-09-08T10:30:03.900189 #34927]  INFO -- : 0:  guard-rspec (4.2.10) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/guard-rspec-4.2.10.gemspec
+I, [2014-09-08T10:30:03.900622 #34927]  INFO -- : 0:  bundler (1.5.0) from /Users/shawman/.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/specifications/bundler-1.5.0.gemspec
