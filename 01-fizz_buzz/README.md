@@ -11,3 +11,20 @@ Automated tests won't hurt. :D
 ## Got dependencies? ##
 
 Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab them.
+
+# Summary: #
+## Bundler dependency for installing gems
+## Gems used
+rspec
+guard-rspec
+
+## Instructions
+clone repo
+bundle install (install gems)
+
+bundle exec rspec spec (run tests)
+
+### Run program
+irb
+load 'lib/fizz_buzz.rb'
+FizzBuzz.run
