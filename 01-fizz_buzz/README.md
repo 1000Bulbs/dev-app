@@ -15,16 +15,25 @@ Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab th
 # Summary: #
 ## Bundler dependency for installing gems
 ## Gems used
-rspec
-guard-rspec
+* rspec
+* guard-rspec
 
 ## Instructions
-clone repo
-bundle install (install gems)
+### Get code and setup
+* clone repo
+* cd 01-fizz_buzz
+* bundle install (install gems)
 
-bundle exec rspec spec (run tests)
+### Run tests
+* bundle exec rspec spec
 
 ### Run program
-irb
-load 'lib/fizz_buzz.rb'
-FizzBuzz.run
+* irb
+* load 'lib/fizz_buzz.rb'
+* FizzBuzz.run
+
+### Automated test of changes
+* separate terminal
+* cd 01-fizz_buzz
+* guard
+When changes are made to spec of class file tests are automatically run in this session
