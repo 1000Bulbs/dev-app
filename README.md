@@ -7,7 +7,7 @@ But first an introduction...
 We're the development team behind [1000Bulbs.com](http://www.1000bulbs.com). We build the software that sells more light bulbs online than you'd probably believe *and* we've got a pretty neat development stack including:
 
 * Ruby on Rails
-* PHP 5.3
+* PHP
 * Resque
 * Docker
 * SASS/SCSS, Foundation
@@ -23,7 +23,7 @@ We're the development team behind [1000Bulbs.com](http://www.1000bulbs.com). We 
 
 You're an excellent developer, or at least you try to be. You've got experience building things with some or all of the tech listed above (or would like to). You prefer automated testing.
 
-We're based out of [Garland, TX](https://www.youtube.com/watch?v=Hf8hCZpEpFo) which isn't the most exciting place (though it has been featured multiple times on *Storage Wars: Texas*). Luckily, you don't have to be here, because we're fully remote!
+We're based out of [Garland, TX](https://www.youtube.com/watch?v=Hf8hCZpEpFo) which isn't the most exciting place (though it has been featured multiple times on *Storage Wars: Texas*). Luckily, you don't have to be here, because we're 100% remote!
 
 ### Benefits include ###
 
