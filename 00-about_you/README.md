@@ -1,6 +1,6 @@
 # All about you #
 
-We'd like to know more about you. So drop your resume in here.
+We probably already have your resume, but here's a place where you can include any details that were left out.
 
 Got a cool web app you've built? Link us to it.
 

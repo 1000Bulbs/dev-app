@@ -28,7 +28,7 @@ We're based out of [Garland, TX](https://www.youtube.com/watch?v=Hf8hCZpEpFo) wh
 ### Benefits include ###
 
 * 100% remote
-* For those of you in the DFW area, team lunches every month on us
+* Monthly team lunches on us (for those in the DFW area)
 * Competitive Salary
 * Awesome Hardware: M1 Macbook Pro
 * Health and Dental insurance
