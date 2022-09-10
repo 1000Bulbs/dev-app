@@ -1,0 +1,31 @@
+.fb-container{
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+}
+
+.fb-element{
+    padding:20px;
+    background-color:grey;
+    border-radius:10px;
+    color:white;
+}
+
+.fb-element.Fizz{
+    background-color:blue;
+}
+
+.fb-element.Buzz{
+    background-color:hotpink;
+}
+
+.fb-element.FizzBuzz{
+    background-color:purple;
+}
+
+@media screen and (max-width:600px) {
+    .fb-container{
+        flex-flow:column;
+        text-align:center;
+    }
+}

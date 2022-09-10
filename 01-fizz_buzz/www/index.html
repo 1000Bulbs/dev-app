@@ -1,0 +1,32 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+
+    <body onload="getFizzBuzz()">
+        <div class="fb-container">
+
+        </div>
+    </body>
+    <script>
+        async function getFizzBuzz(){
+            let fbReq = await fetch("/fizzbuzz").then(response => response.json());
+            makeHTML(fbReq.data);
+        }
+
+        function makeHTML(data){
+            console.log("GOT DATA", data);
+            
+            for(let d in data){
+                let newDiv = document.createElement("div");
+                newDiv.classList.add("fb-element");
+                if(isNaN(data[d])){
+                    newDiv.classList.add(data[d]);
+                }
+                newDiv.innerHTML = data[d];
+                document.querySelector(".fb-container").appendChild(newDiv);
+            }
+        }
+    </script>
+</html>

@@ -1,9 +1,6 @@
 # All about you #
 
-Here's a place where you can include any details about yourself that you might want to share. Make sure to put your name somewhere so we can connect this PR back to your resume.
+Hi, I'm Grey Sole. The name on my resume is Ryan Grant. I've been a hobbyist programmer since high school on the creative side of JavaScript. I've made a game in Flash and WebGL based desktop wallpapers. After graduating college with a BA in Arts and Technology, I got my first job as a web developer. My team worked on a web app for office and field workers at an electric company to easily report and manage their temporary power poles at job sites. I made a chat module with Socket.IO, a table/graph generator with PHP/SQL and jQuery, and UI for printing multiple PDFs in one job.
 
-Got a cool web app you've built? Link us to it.
-
-Got a Hacker News account full of snarky/insightful comments? Rad. We want to read those snarky/insightful comments.
-
-Got a GitHub account? We'll probably actually figure that out from the pull request. Don't worry about that one.
+Since the project was cancelled, I began to search for a new job. I've been studying React and Node.js to learn and create something very cool for Twitch streamers. Spooder is a self-hosted companion that takes chat commands and webhooks and emits OSC to communicate with video/music software. As a webserver, Spooder's features are extendable with easily installable and exportable plugins that host their own browser overlays. Recently, I've integrated Open Broadcaster Software's latest websocket protocol to make a simple stream deck. Spooder is essentially a Twitch bot skeleton that lets you create all kinds of experiments with Twitch's API quickly and efficiently. With your own Twitch account(s) and app credentials provided, you have full control of your stream's bot with all the heavy lifting done for you.
+https://github.com/GreySole/Spooder
