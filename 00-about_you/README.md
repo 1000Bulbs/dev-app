@@ -8,3 +8,14 @@ Got a Hacker News account full of snarky/insightful comments? Rad. We want to re
 
 Got a GitHub account? We'll probably actually figure that out from the pull request. Don't worry about that one.
 
+
+ # ABOUT ME
+Goal oriented and reliable junior java developer with an outstanding work ethic and computer language
+knowledge base. Adept at problem-solving, well versed in following established procedures and working 
+under little or no supervision. Excellent team player with sound knowledge of development tools and 
+languages with the ability to work creatively in small and large team environment in most useful 
+programming languages:
+
+ # RECENT PROjCTS
+ I cloned Amazone from scratch 
+ 
