@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
+
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="modules/main.js"></script>
+    <main>
+        <h1>Enter # between 1 - 100 To Start FizzBuzz Check</h1>
+        <h3>This Front End application tests the logic with the FizzBuzz API answers to validate pass/fail test for each number from 1 - 100.</h3>
+        <div id="app">
+            <form>
+                <div class="grid-container full">
+                    <div class="grid-x grid-padding-x">
+                        <div class="medium-6 cell">
+                            <label for="start-num">Start Number:</label>
+                            <input type="number" name="start-number" id="start-number" min="1" max="100" maxlength="3"></input>
+                        </div>
+                        <div class="medium-6 cell">
+                            <label for="end-num">End Number:</label>
+                            <input type="number" id="end-number"  min="1" max="100" maxlength="3"></input>
+                        </div>
+                        <div class="medium-6 cell">
+                            <input type="submit" id="submit-button" value="Start FizzBuzz Check"></input>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <table class="hover margin-top-3">
+            <thead>
+                <tr>
+                    <th>
+                        Test Number
+                    </th>
+                    <th>
+                        Value
+                    </th>
+                    <th>
+                        (Pass/Fail)
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="display-items"> 
+            </tbody>
+        </table>
+      </main>
+</body>
+</html>
