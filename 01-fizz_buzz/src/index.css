@@ -1,0 +1,11 @@
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #E1D9D1;
+  position: relative;
+}
+

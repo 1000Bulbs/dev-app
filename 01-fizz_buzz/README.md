@@ -11,3 +11,13 @@ Automated tests won't hurt. :D
 ## Got dependencies? ##
 
 Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab them.
+
+
+-- Dependencies 
+
+npm 
+
+To Run:
+cd /01-fizz_buzz
+npm install 
+npm run dev

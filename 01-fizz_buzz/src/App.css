@@ -1,0 +1,59 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1024px;
+  padding: 50px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.App h3{
+  color:red;
+  font-size: 12px;
+}
+
+.App h1{
+  font-size: 48px;
+  color: #333;
+}
+
+.App input{
+  margin: 10px 0px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.App .error{
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.App .valid{
+  border: 1px solid green;
+  padding: 10px;
+}
+
+.App .inputButton{
+  margin: 10px 0px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.App .inputButton:hover{
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: #E1D9D1;
+}
+
+.App .form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
