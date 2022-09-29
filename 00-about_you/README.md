@@ -1,9 +1,11 @@
 # All about you #
 
-Here's a place where you can include any details about yourself that you might want to share. Make sure to put your name somewhere so we can connect this PR back to your resume.
+Hi there! I am Jared and I am a developer with big aspirations of building technology that helps the world.
 
-Got a cool web app you've built? Link us to it.
+In the first step of my plan to contribute to the world I need money so I have been working on a couple of projects
+as SaaS app's to eventually turn into a business. I'd like to highlight a couple of them.
 
-Got a Hacker News account full of snarky/insightful comments? Rad. We want to read those snarky/insightful comments.
+- Enzo Automotive is a platform to automate some tedious tasks dealerships do to sell cars such as posting them online www.enzo.autos
+- Adventure Redesigned is going to be a platform to help connect influencers with brands for sponsorships in the Van Life / Adventure space www.adventureredesigned.com
 
-Got a GitHub account? We'll probably actually figure that out from the pull request. Don't worry about that one.
+I am learning new things everyday and hope to one day produce a technology that inspires and assists others with their human condition.
