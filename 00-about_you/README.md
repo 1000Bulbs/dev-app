@@ -1,8 +1,9 @@
 # All about you #
 
-Here's a place where you can include any details about yourself that you might want to share. Make sure to put your name somewhere so we can connect this PR back to your resume.
+Hi, My name is Phillip, and I am a full stack software engineer with 6+ years overall experience.
+I have 4+ years of experience with Ruby on Rails, 5+ years of experience in RDBMS like MySQL and Postgres, and 5 years of experience with PHP and PHP frameworks such as Laravel, Symfony, Codeigniter.
 
-Got a cool web app you've built? Link us to it.
+Here's my Github account for your reference: https://github.com/jmit-modern
 
 Got a Hacker News account full of snarky/insightful comments? Rad. We want to read those snarky/insightful comments.
 
