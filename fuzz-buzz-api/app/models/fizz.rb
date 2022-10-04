@@ -1,0 +1,3 @@
+class Fizz < ApplicationRecord
+
+end

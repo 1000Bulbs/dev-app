@@ -1,0 +1,3 @@
+class FizzBuzz < ApplicationRecord
+
+end
