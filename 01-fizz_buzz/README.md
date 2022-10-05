@@ -11,3 +11,5 @@ Automated tests won't hurt. :D
 ## Got dependencies? ##
 
 Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab them.
+
+- I didn't include any dependencies, just open the index.html file and it should work right away
