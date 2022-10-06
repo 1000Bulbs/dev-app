@@ -14,18 +14,18 @@ app.get('/fizzbuzz', (req, res)=>{
 console.log(fizzBuzz);
 
 app.listen(port, () => {
-    console.log("FizzBuzz ready at http://localhost:3000");
+    console.log("Unicorn ready at http://localhost:3000");
 });
 
 function getFizzBuzz(){
     let returnArray = [];
     for(let i=1; i<=100; i++){
         if(i%3==0 && i%5==0){
-            returnArray.push("FizzBuzz");
+            returnArray.push("Unicorn");
         }else if(i%3==0){
-            returnArray.push("Fizz");
+            returnArray.push("Uni");
         }else if(i%5==0){
-            returnArray.push("Buzz");
+            returnArray.push("Corn");
         }else{
             returnArray.push(i);
         }
