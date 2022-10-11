@@ -1,0 +1,14 @@
+.app-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 2rem;
+}
+
+.challenge-instructions {
+    display: flex;
+    flex-flow: column;
+    justify-self: center;
+    margin-inline: 20rem;
+}

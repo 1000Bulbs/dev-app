@@ -4,13 +4,10 @@
 ### My name is Zachary Price and I'm a user-centered Web Designer and Frontend Developer with a passion for Design Systems.
 
 #### Fun Facts
-- 🔭 I’m currently working on my own design system. 
-- 🌱 I’m currently learning Angular 
-- 👯 I’m looking to collaborate on Design Systems 
-- 🤔 I’m looking for help with Angular 
-- 💬 Ask me about CSS 
-- ⚡ Fun fact: I was a US Sailor for 10 years 
-- 📫 Reach out via [Email](mailto:zacharyprice@users.noreply.github.com)
+- 🔭 I’m currently working on my own design system.
+- 🌱 I’m currently learning Angular
+- ⚡ Fun fact: I was a US Sailor for 10 years
+- 📫 Reach out via [Email](mailto:zacharyprice@me.com)
 
 #### Skills
 <p align="left">

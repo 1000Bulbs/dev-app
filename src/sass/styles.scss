@@ -1,0 +1,22 @@
+// Import Bootstrap styles as a base
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// Import local Design System styles for this app
+// Abstracts
+@import 'abstracts/breakpoints';
+@import 'abstracts/colors';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/shadows';
+@import 'abstracts/spacing';
+@import 'abstracts/type';
+
+// Base
+
+// Components
+
+// Layout
+@import 'layout/layout';
+
+// Utilities
