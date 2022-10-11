@@ -19,7 +19,7 @@ function fizzBuzz() {
 
         console.log(result);
         // answerOutput.innerHTML(`<p>${result}</p>`);
-        answerOutput.appendChild(result);
+        // answerOutput.appendChild(result);
     }
 }
 
