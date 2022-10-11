@@ -1,4 +1,4 @@
-let answerOutput = document.querySelector('challenge-answer');
+// let answerOutput = document.querySelector('challenge-answer');
 
 function fizzBuzz() {
     // let inputMax = 2 * (10 ** 5);
