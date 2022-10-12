@@ -1,0 +1,9 @@
+Hey, my name is Adam Luberski, born on 1994-03-20 and I am a US citizen currently living in Tomball , Texas.
+
+You can reach me at 'adamluberskidev@gmail.com' and my LinkedIn Profile link is 'https://www.linkedin.com/in/adam-l001/'
+
+I have 7 years of experience in software development and 6 years of experience in Ruby on Rails and various other popular libraries and Frameworks.
+
+You can find some of my further details in the attached Resume.
+
+Thanks and Regards.
