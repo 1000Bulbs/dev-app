@@ -11,3 +11,10 @@ Automated tests won't hurt. :D
 ## Got dependencies? ##
 
 Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab them.
+
+---
+# Zachary Price Solution
+### To run the app simply type the following:
+```javascript
+npm run start
+```
