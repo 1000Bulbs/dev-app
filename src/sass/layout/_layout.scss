@@ -15,8 +15,11 @@
     .challenge-answers {
         @extend .challenge-instructions;
         margin-top: 2rem;
+     
+     #challenge-answer-list{
         column-count: 3;
         column-gap: 10rem;
+     }
     }
 }
 
