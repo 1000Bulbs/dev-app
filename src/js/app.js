@@ -1,8 +1,7 @@
-// let answerOutput = document.querySelector('challenge-answer');
+let resultContainer = document.getElementById('challenge-answer-list');
 
 function fizzBuzz() {
-    // let inputMax = 2 * (10 ** 5);
-    let inputMax = 1000;
+    let inputMax = 100;
 
     for (i = 1; i < inputMax; i++) {
         let result = '';
@@ -17,9 +16,10 @@ function fizzBuzz() {
             result += i;
         }
 
-        console.log(result);
-        // answerOutput.innerHTML(`<p>${result}</p>`);
-        // answerOutput.appendChild(result);
+        // console.log(result);
+        const answerListItem = document.createElement('li');
+        resultContainer.appendChild(answerListItem);
+        answerListItem.innerHTML = result;
     }
 }
 

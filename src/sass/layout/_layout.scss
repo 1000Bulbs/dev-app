@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     height: 100vh;
     margin: 2rem;
 
@@ -10,11 +10,13 @@
         display: flex;
         flex-flow: column;
         justify-self: center;
-        margin-inline: 20rem;
     }
 
     .challenge-answers {
         @extend .challenge-instructions;
+        margin-top: 2rem;
+        column-count: 3;
+        column-gap: 10rem;
     }
 }
 
