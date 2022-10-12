@@ -14,7 +14,7 @@ Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab th
 
 ---
 # Zachary Price Solution
-### To run the app simply type the following:
+### To run the app simply type the following from a terminal in the app's root directory:
 ```javascript
 npm run start
 ```
