@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Kat's React App",
+  "name": "FizzBuzz dev app for 1000 Bublbs",
   "icons": [
     {
       "src": "favicon.ico",
