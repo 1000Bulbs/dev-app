@@ -1,4 +1,30 @@
 section {
     font-family: 'Corben', cursive;
+    margin: auto;
+    max-width: 1500px;
     padding: 4rem;
+}
+
+
+.error-state {
+    margin-top: 2rem;
+
+    h3 {
+        margin-top: 2rem;
+    }
+
+    img {
+        width: 50vw;
+    }
+}
+
+.loading-state {
+    h3 {
+        margin-bottom: 4rem;
+    }
+
+    .spinner-grow {
+        height: 4rem;
+        width: 4rem;
+    }
 }

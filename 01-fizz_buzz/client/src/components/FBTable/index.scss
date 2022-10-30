@@ -1,5 +1,13 @@
+@import '~bootstrap/scss/bootstrap';
+
 table.table {
     font-family: 'Corben', cursive;
-    font-size: 1.5rem;
+    font-size: 1rem;
     caption-side: top;
+}
+
+@include media-breakpoint-up(md) {
+    table.table {
+        font-size: 1.5rem;
+    }
 }

@@ -2,10 +2,18 @@ import Table from 'react-bootstrap/Table';
 import './index.scss';
 import FBTableImage from './FBTableImage'
 
-function FBTable({ data, filteredData}) {
+/**
+ * Creates the Fizz Buzz table
+ *
+ * @method FBTable
+ * @param {Array|null} data
+ * @param {String|null} filter
+ * @returns JSX
+ */
+function FBTable({ data, filter }) {
     return (
         <Table responsive striped bordered hover>
-            <caption>Displaying {filteredData.length} of {data.length} results</caption>
+            <caption>Displaying {data.length} of 100 results with {filter ? `the '${filter}' filter` :'no filter'} applied</caption>
             <thead>
                 <tr>
                     <th>#</th>
@@ -14,7 +22,7 @@ function FBTable({ data, filteredData}) {
                     </tr>
             </thead>
             <tbody>
-                {filteredData && filteredData.map(({ num, say }) => (
+                {data && data.map(({ num, say }) => (
                     <tr key={num}>
                         <td>{num}</td>
                         <td>{say}</td>

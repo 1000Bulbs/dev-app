@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 32px;
+    padding: 0;
 
     button.btn {
         font-size: 1rem;
@@ -13,22 +14,44 @@
         height: 4rem;
         width: 16rem;
 
+        &[disabled] {
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
         img {
-            max-width: 25px;
+            max-width: 20px;
             margin-left: 12px;
         }
     }
-
 }
 
-img {
-    max-width: 50px;
+@include media-breakpoint-up(md) {
+    .button-group {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
 
-    @include media-breakpoint-up(md) {
-        max-width: 75px;
+        button.btn {
+            font-size: 1.075rem;
+            width: 17rem;
+
+            img {
+                max-width: 22px;
+            }
+        }
     }
+}
 
-    @include media-breakpoint-up(lg) {
-        max-width: 100px;
+@include media-breakpoint-up(xl) {
+    .button-group {
+        button.btn {
+            font-size: 1.5rem;
+            width: 20rem;
+
+            img {
+                max-width: 44px;
+            }
+        }
     }
 }

@@ -1,13 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
 
-img {
-    max-width: 50px;
+table.table {
+    img {
+        max-width: 25px;
 
-    @include media-breakpoint-up(md) {
-        max-width: 75px;
-    }
+        @include media-breakpoint-up(md) {
+            max-width: 50px;
+        }
 
-    @include media-breakpoint-up(lg) {
-        max-width: 100px;
+        @include media-breakpoint-up(lg) {
+            max-width: 75px;
+        }
     }
 }

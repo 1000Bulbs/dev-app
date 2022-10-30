@@ -1,0 +1,23 @@
+{
+  "name": "01-fizz_buzz",
+  "version": "1.0.0",
+  "description": "Specifically: *Write a program that prints the numbers from 1 to 100. But for multiples of three print \"Fizz\" instead of the number and for the multiples of five print \"Buzz\". For numbers which are multiples of both three and five print \"FizzBuzz\".*",
+  "main": "server/index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "cd client && npm run start",
+    "start": "node server/index.js",
+    "startDev": "./node_modules/.bin/concurrently \"./node_modules/.bin/nodemon\" \"npm run client\"",
+    "build": "cd client && npm install && npm run build",
+    "deploy": "npm run build && git add . && git commit -m \"Building for production\" && git push heroku main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kathryn Herod",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.5.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
