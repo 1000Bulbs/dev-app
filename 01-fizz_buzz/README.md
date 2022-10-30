@@ -11,3 +11,16 @@ Automated tests won't hurt. :D
 ## Got dependencies? ##
 
 Awesome! Bundler. Composer. npm. Whatever it is, just let us know how to grab them.
+
+
+## Fizzbuzz usage and dependencies ##
+
+Usage: ruby fb.rb MAX_VALUE
+
+The output will output all numbers between 1 and the max_value input, substituting "Fizz" for numbers that are multiples of 3, and "Buzz" where a multiple of 5, "FizzBuzz" where multiples of both 3 and 5. This script was built and tested using Ruby version 3.0.4, so I would encourage using Ruby 3.
+
+## Getting started ##
+
+Run `bundle install` and ensure it executes without conflict.
+Run `ruby fb.rb 100` to view the output of the script.
+Run `rake spec` to execute rspec tests.
