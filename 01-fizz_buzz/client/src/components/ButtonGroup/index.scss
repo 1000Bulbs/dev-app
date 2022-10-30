@@ -1,0 +1,34 @@
+@import '~bootstrap/scss/bootstrap';
+
+.button-group {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+
+    button.btn {
+        font-size: 1rem;
+        margin-bottom: 16px;
+        height: 4rem;
+        width: 16rem;
+
+        img {
+            max-width: 25px;
+            margin-left: 12px;
+        }
+    }
+
+}
+
+img {
+    max-width: 50px;
+
+    @include media-breakpoint-up(md) {
+        max-width: 75px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        max-width: 100px;
+    }
+}

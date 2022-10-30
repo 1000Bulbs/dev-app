@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/bootstrap';
+
+img {
+    max-width: 50px;
+
+    @include media-breakpoint-up(md) {
+        max-width: 75px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        max-width: 100px;
+    }
+}

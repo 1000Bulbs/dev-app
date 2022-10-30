@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from "react";
-import './App.css';
+import './App.scss';
+import FBTable from './components/FBTable';
+import ButtonGroup from './components/ButtonGroup';
+import Spinner from 'react-bootstrap/Spinner';
 
 export default function App() {
   const [data, setData] = useState(null);
+  const [filter, setFilter] = useState();
+  const [filteredData, setFilteredData] = useState(null)
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -19,7 +24,8 @@ export default function App() {
       })
       .then(({ fizzBuzz }) => {
         setData(fizzBuzz);
-        setError(null);
+        setFilteredData(fizzBuzz);
+        setError(null)
       })
       .catch((err) => {
         setError(err.message);
@@ -30,19 +36,26 @@ export default function App() {
       });
   }, []);
 
+  const handleClick = (selectedFilter) => {
+    setFilter(selectedFilter);
+    setFilteredData(data.filter((obj) => obj.say === selectedFilter));
+  }
+
   return (
-    <div className="App">
+    <main className="App">
       <header className="App-header"></header>
       <section>
-        { loading && <div>A moment please...</div> }
-        { error && (<><p>There was a problem fetching FizzBuzz data</p><p>{error}</p></>)}
+        { loading &&
+          <div className='loading-state'>
+            <p>A moment please...</p>
+            <Spinner animation="grow" variant="info" />
+          </div> }
+        { error && (<div className='error-state'><p>There was a problem fetching FizzBuzz data</p><p>{error}</p></div>)}
 
-        {data && data.map(({ num, say }) => (
-          <div key={num}>
-            <h3>{num}: {say}</h3>
-          </div>
-        ))}
+        <ButtonGroup data={data} filter={filter} loading={loading} handleClick={handleClick}/>
+
+        {data && data.length && <FBTable data={data} filteredData={ filteredData } />}
       </section>
-    </div>
+    </main>
   )
 }
