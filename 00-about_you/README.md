@@ -4,6 +4,9 @@ Here's a place where you can include any details about yourself that you might w
 
 Got a cool web app you've built? Link us to it.
 
+https://staging.d1y2qgealrmo9w.amplifyapp.com/ -
+ReVitalize, used to help crowdfund projects in the community.
+
 Got a Hacker News account full of snarky/insightful comments? Rad. We want to read those snarky/insightful comments.
 
 Got a GitHub account? We'll probably actually figure that out from the pull request. Don't worry about that one.
