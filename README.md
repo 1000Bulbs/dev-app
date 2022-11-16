@@ -1,44 +1,21 @@
 # Are you a developer? Have you ever seen a light bulb? We've got a job for you. #
 
-But first an introduction...
+# Hello My name is Hiram Rios and this project is related to the buzzer assignment ! #
 
-## About Us ##
 
-We're the development team behind [1000Bulbs.com](http://www.1000bulbs.com). We build the software that sells more light bulbs online than you'd probably believe *and* we've got a pretty neat development stack including:
+<img width="1790" alt="Screen Shot 2022-11-16 at 5 51 04 AM" src="https://user-images.githubusercontent.com/30737409/202198521-ab047656-c627-4a29-a491-0bf27d213f6a.png">
 
-* Ruby on Rails
-* PHP
-* Resque
-* Docker
-* SASS/SCSS, Foundation
-* jQuery, Jasmine, Coffeescript
-* PostgreSQL/MySQL
-* RabbitMQ
-* Redis/Memcached
-* Chef
-* Continuous Integration
-* GitHub (obviously)
+<img width="280" alt="Screen Shot 2022-11-16 at 5 58 57 AM" src="https://user-images.githubusercontent.com/30737409/202198600-990611bb-960d-4c64-98c0-558c41743be8.png">
 
-## About You (ideally) ##
 
-You're an excellent developer, or at least you try to be. You've got experience building things with some or all of the tech listed above (or would like to). You prefer automated testing.
+## How I tackled the assignment ##
 
-We're based out of [Garland, TX](https://www.youtube.com/watch?v=Hf8hCZpEpFo) which isn't the most exciting place (though it has been featured multiple times on *Storage Wars: Texas*). Luckily, you don't have to be here, because we're 100% remote!
+The way I did this assignment was through react in a js component. I really wanted to created a visual component for the buzz assingment and I found that react was the best way to go. I started by making the input dynamic. Instead of making the count form 1 to 100 the user would be able to pick any integer lets say 2000 and it would count from 0 to that specific number. 
 
-### Benefits include ###
+I then proceeded to create icons for the buzz counting. For every multiple of 3 you would get the electric icon and for every non multiple of 3 you would get the lightbulb icon. 
 
-* 100% remote
-* Monthly team lunches on us (for those in the DFW area)
-* Competitive Salary
-* Awesome Hardware: M1 Macbook Pro
-* Health and Dental insurance
-* Paid vacation and sick days
-* 401k participation
+I think this visual really works well with the assingment and potrays me well when it comes to working the problem spefically with how I develop in the front end. 
 
-## Submitting Your Application ##
 
-1. Clone/fork this repository.
-2. Follow the instructions in each of the subdirectories' README files.
-3. Send us a pull request through GitHub or let us know where we can find your repo.
-
-Should you be new to Git, we recommend [Pro Git](http://git-scm.com/book).
+## how to run the poject ##
+In the repo you will find a folder called buzz-app. In the terminal if you cd to that folder and run npm start it will run the application. running npm install will also install any dependecies in the folder if need be.
